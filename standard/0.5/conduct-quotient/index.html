@@ -44,14 +44,15 @@
     <div class="docs-layout">
       <aside class="docs-sidebar" aria-label="Specification navigation">
         <a class="sidebar-overview" href="../../../">← Standard overview</a>
+        <p class="fine-print" style="padding: 0 0 14px;">Sections without their own page are published in the working specification.</p>
         <div class="sidebar-group">
-          <p>OVERVIEW</p><a class="" href="#related">Introduction</a><a class="" href="#related">Purpose and limits</a><a class="" href="#related">Terms and roles</a>
+          <p>OVERVIEW</p><a class="" href="../../../downloads/open-conduct-v0.5-public-record/01-working-specification.md">Introduction</a><a class="" href="../../../downloads/open-conduct-v0.5-public-record/01-working-specification.md">Purpose and limits</a><a class="" href="../../../downloads/open-conduct-v0.5-public-record/01-working-specification.md">Terms and roles</a>
         </div>
         <div class="sidebar-group">
-          <p>COMPONENTS</p><a class="" href="../../../netconductscore/">Net Conduct Score</a><a class="" href="../../../verifiedconductindex/">Verified Conduct Index</a><a class="" href="../verified-conduct-index/">VCI specification</a><a class="is-current" href="#spec-main">Conduct Quotient</a>
+          <p>COMPONENTS</p><a class="" href="../../../netconductscore/">Net Conduct Score</a><a class="" href="../net-conduct-score/">NCS specification</a><a class="" href="../../../verifiedconductindex/">Verified Conduct Index</a><a class="" href="../verified-conduct-index/">VCI specification</a><a class="is-current" href="#spec-main">Conduct Quotient</a>
         </div>
         <div class="sidebar-group">
-          <p>SYSTEM</p><a class="" href="#related">Context transfer</a><a class="" href="#related">Proof and benefits</a><a class="" href="#related">Identity and custody</a><a class="" href="#related">Correction and appeal</a>
+          <p>SYSTEM</p><a class="" href="../../../downloads/open-conduct-v0.5-public-record/01-working-specification.md">Context transfer</a><a class="" href="../../../downloads/open-conduct-v0.5-public-record/01-working-specification.md">Proof and benefits</a><a class="" href="../../../downloads/open-conduct-v0.5-public-record/01-working-specification.md">Identity and custody</a><a class="" href="../../../downloads/open-conduct-v0.5-public-record/01-working-specification.md">Correction and appeal</a>
         </div>
         <div class="sidebar-group">
           <p>ACCOUNTABILITY</p><a class="" href="../../../protections/">Protections</a><a class="" href="../../../case-for-conduct/">The case</a><a class="" href="../../../regulatory-posture/">Regulatory posture</a><a class="" href="../../../status/#governance">Governance</a><a class="" href="../../../library/#research">Evaluation</a><a class="" href="../../../protections/">Prohibited uses</a>
@@ -62,7 +63,7 @@
       </aside>
       <article class="spec-article" id="spec-main">
         <nav class="breadcrumbs" aria-label="Breadcrumb">
-          <a href="../../../">Open Conduct</a><span>/</span><a href="#related">Components</a><span>/</span><strong>Conduct Quotient</strong>
+          <a href="../../../">Open Conduct</a><span>/</span><a href="../../../downloads/open-conduct-v0.5-public-record/01-working-specification.md">Components</a><span>/</span><strong>Conduct Quotient</strong>
         </nav>
         <header class="spec-title-block">
           <div class="spec-status-row">
@@ -96,7 +97,7 @@
           </div>
           <div>
             <h2>One score, two protected inputs</h2>
-            <p>The private consumer surface leads with one contextual CQ. The consumer can open <strong>How your CQ was formed</strong> to inspect the human-experience and verified-customer-record inputs. Workers and ordinary receiving businesses do not receive those values.</p>
+            <p>The private consumer surface leads with one contextual CQ. The consumer can open <strong>How your CQ was formed</strong> to inspect the human-experience and verified-customer-record inputs. Workers do not receive those values, and neither does any receiving business.</p>
             <div class="spec-figure" role="img" aria-label="Eligible Net Conduct Score and Verified Conduct Index inputs produce one contextual Conduct Quotient, which can support one limited eligibility result.">
               <div class="figure-input input-human">
                 <i></i> <span>NCS<br>
@@ -119,6 +120,8 @@
               <p class="document-type">PROVISIONAL RESEARCH FAMILY</p><code>CQinternal = min((N + V) / 2, min(N, V) + κ)</code>
               <p>N and V are separately valid contextual inputs on an internal 0–100 scale. Suite K used κ = 10 as a research setting. The public display candidate maps the result to 1.00–5.00 and rounds to the nearest hundredth, half-to-even.</p>
             </div>
+            <p><strong>The cap is not a floor, and a floor is required.</strong> The capped mean limits how far a strong input can carry a weak one. It does not prevent it. At N = 100 and V = 60 the expression yields <code>min(80, 70) = 70</code>, a usable score containing a weak input. Non-compensation therefore requires a separate minimum below which no score is produced for any value of the other input. That minimum is unspecified, and until it is set the non-compensation property rests on the input gates rather than on this formula.</p>
+            <p>Worked example of the intended behaviour: with a floor at 65, N = 100 and V = 60 would produce no score and a named non-score state, because V sits below the floor regardless of N.</p>
             <p>K3 capped arithmetic is the provisional structural lead. K6 weakest-link anchored synthesis, a two-dimensional explanation, and proof-only output remain research controls. No coefficient, mapping, or score is authorized for production.</p>
           </div>
         </section>
@@ -128,7 +131,11 @@
           </div>
           <div>
             <h2>Evidence gates and non-score states</h2>
-            <p>Each required input MUST separately pass its construct, provenance, attribution, sampling, sufficiency, independence, fairness, rights, and dispute gates. Confidence controls whether a score is available; it does not compensate for weak standing.</p>
+          <div class="normative-rule">
+            <p class="document-type">UNRESOLVED</p>
+            <p>No score may display until a validated minimum evidence threshold is met. That threshold does not exist yet. No number of interactions has been established as sufficient, and no reliability statistic, inter-rater agreement figure, or standard error has been produced for any candidate model. Two decimal places are a display choice made before the measurement work that would justify them.</p>
+          </div>
+            <p>Each required input MUST separately pass its construct, provenance, attribution, sampling, sufficiency, independence, fairness, rights, and dispute gates. Confidence controls whether a score is available; it does not compensate for weak standing. Because confidence gates the display, it MUST also appear in it: a displayed CQ MUST be accompanied by a plain statement of the evidence behind it, such as the number of qualifying interactions and the number of distinct businesses they came from. A score shown without its evidence strength implies a precision the inputs cannot support.</p>
             <table>
               <thead>
                 <tr>
@@ -183,7 +190,7 @@
               <span>REPLACEABLE BENEFIT DELIVERY</span>
               <p>The Conduct layer governs eligibility and the limited proof. A separate loyalty, promotion, commerce, or customer-experience system may deliver the approved benefit, but it MUST NOT recalculate CQ, retain the result as a general customer segment, infer a failed result, or make baseline service depend on participation or eligibility.</p>
             </div>
-            <p>Incentive-orchestration platforms are therefore a potential implementation-partner category rather than part of the Conduct standard itself. <a href="https://www.talon.one/">Talon.One</a>is one current market example. Open Conduct has no partnership with or endorsement from Talon.One, and no provider is required by this proposal.</p>
+            <p>Incentive-orchestration platforms are therefore a potential implementation-partner category rather than part of the Conduct standard itself. No provider is named, none is required, and none has been chosen, approached, or endorsed. The category is deliberately replaceable, and a standard that depended on one vendor would fail its own independence requirement.</p>
             <p>Broader score sharing may be researched only when the consumer initiates it and the exact use independently passes necessity, comprehension, privacy, fairness, legal, and baseline-service review. Conduct does not create public profiles, leaderboards, searchable people ratings, or a way to deny ordinary service.</p>
           </div>
         </section>
@@ -248,7 +255,7 @@
       </aside>
     </div>
     <footer class="docs-footer">
-      <p>© <script>document.write(new Date().getFullYear())</script> Conduct · Created by <a href="https://brentturner.is">Brent Turner</a> · First proposed via <a href="https://thenewnew.is">The New New</a></p><a href="../../../">Open Conduct overview</a>
+      <p>© <script>document.write(new Date().getFullYear())</script> Conduct · Created by <a href="https://brentturner.is">Brent Turner</a> · First proposed via <a href="https://thenewnew.is/p/conduct-quotient-cq-net-conduct-score-ncs">The New New</a></p><a href="../../../">Open Conduct overview</a>
     </footer>
   </main>
 </body>

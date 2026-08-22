@@ -82,7 +82,7 @@
 
 29. **DO NOT change structured data (`ld+json`) without checking every page.** The schema graph includes `@id` references that link WebSite, Person, and WebPage nodes. A broken `@id` produces orphan entities in search results.
 
-30. **DO NOT let OG or Twitter meta tags drift from the page title and description.** If you change a `<title>`, update `og:title`, `twitter:title`, and the `name` in the structured data to match.
+30. **DO NOT let OG or Twitter meta tags drift from the page title and description *by accident*.** If you change a `<title>`, update `og:title`, `twitter:title`, and the `name` in the structured data to match. Purpose-written share copy is the one permitted exception: an `og:description` or `twitter:description` may deliberately differ from the meta description when it is written for a share card rather than for a search result. Where that is intentional, leave it alone. The prohibition is on drift, not on deliberate divergence.
 
 31. **DO NOT add a page without updating `sitemap.xml`.** Every public, indexable page must appear in the sitemap with an accurate `<lastmod>` date.
 
