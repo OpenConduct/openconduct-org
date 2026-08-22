@@ -1,7 +1,9 @@
 # Open Conduct v0.5 public record
 
-**Prepared:** August 22, 2026  
-**Status:** Public-proposal package  
+**Prepared:** August 22, 2026
+
+**Status:** Public-proposal package
+
 **Canonical home:** https://openconduct.org/
 
 This package contains the current working specification, decision register, open questions, architecture records, product contract, adversarial review, and synthetic research Suites A–L behind the Open Conduct proposal.
