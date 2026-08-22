@@ -1,3 +1,53 @@
+/* Self-hosted variable fonts — SIL Open Font License 1.1 */
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 200 800;
+  font-display: swap;
+  src: url("fonts/PlusJakartaSans-Variable.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: italic;
+  font-weight: 200 800;
+  font-display: swap;
+  src: url("fonts/PlusJakartaSans-Italic-Variable.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Source Serif 4";
+  font-style: normal;
+  font-weight: 200 900;
+  font-display: swap;
+  src: url("fonts/SourceSerif4Variable-Roman.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Source Serif 4";
+  font-style: italic;
+  font-weight: 200 900;
+  font-display: swap;
+  src: url("fonts/SourceSerif4Variable-Italic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Red Hat Mono";
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+  src: url("fonts/RedHatMono-Variable.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Red Hat Mono";
+  font-style: italic;
+  font-weight: 300 700;
+  font-display: swap;
+  src: url("fonts/RedHatMono-Italic-Variable.woff2") format("woff2");
+}
+
 :root {
   --midnight: #090c18;
   --night-surface: #121725;
@@ -31,9 +81,9 @@
   --border-dark: #343a46;
 
   /* Typography */
-  --font-sans: "Inter", "Avenir Next", Avenir, "Helvetica Neue", Helvetica, Arial, system-ui, sans-serif;
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
   --font-serif: "Source Serif 4", Georgia, "Times New Roman", Times, serif;
-  --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  --font-mono: "Red Hat Mono", ui-monospace, "SF Mono", Monaco, Menlo, Consolas, monospace;
   --site-width: 1440px;
 
   /* Spacing scale — section rhythm */
@@ -906,7 +956,7 @@ input {
 .open-primary-nav {
   border-bottom: 1px solid var(--hairline-light);
   display: flex;
-  gap: 22px;
+  gap: 18px;
   order: 10;
   width: 100%;
 }
@@ -970,7 +1020,7 @@ input {
 
 .open-hero-copy { align-self: center; max-width: 760px; }
 .document-type { color: var(--deep-indigo); }
-.open-hero h1 { font-family: var(--font-serif); font-size: clamp(58px, 5.2vw, 78px); font-weight: 400; letter-spacing: -0.025em; line-height: 1.04; margin: 24px 0 30px; }
+.open-hero h1 { font-family: var(--font-serif); font-size: clamp(58px, 5.2vw, 78px); font-weight: 500; letter-spacing: -0.025em; line-height: 1.04; margin: 24px 0 30px; }
 .open-lead { color: var(--spec-body); font-size: 21px; line-height: 1.45; margin: 0; max-width: 640px; }
 .open-actions { align-items: center; display: flex; gap: 26px; margin-top: 38px; }
 .text-action { font-size: 14px; font-weight: 600; }
@@ -1027,14 +1077,14 @@ input {
 .path-grid article { min-height: 310px; padding: 34px 32px 34px 0; }
 .path-grid article + article { border-left: 1px solid var(--hairline-light); padding-left: 32px; }
 .path-number { color: var(--indigo); font-family: var(--font-mono); font-size: 12px; }
-.path-grid h2 { font-family: var(--font-serif); font-size: 28px; font-weight: 400; letter-spacing: -0.015em; line-height: 1.14; margin: 52px 0 16px; }
+.path-grid h2 { font-family: var(--font-serif); font-size: 28px; font-weight: 500; letter-spacing: -0.015em; line-height: 1.14; margin: 52px 0 16px; }
 .path-grid p { color: var(--spec-body); font-size: 16px; line-height: 1.55; max-width: 350px; }
 .path-grid a { display: inline-block; font-size: 14px; font-weight: 600; margin-top: 22px; }
 
 .open-experience { background: var(--midnight); color: var(--white); }
 .open-experience-heading { display: grid; gap: 28px 70px; grid-template-columns: 0.95fr 1.05fr; }
 .open-experience-heading .document-type { color: var(--bright-indigo); grid-column: 1 / -1; }
-.open-experience-heading h2 { font-family: var(--font-serif); font-size: clamp(45px, 4vw, 62px); font-weight: 400; letter-spacing: -0.02em; line-height: 1.07; margin: 0; }
+.open-experience-heading h2 { font-family: var(--font-serif); font-size: clamp(45px, 4vw, 62px); font-weight: 500; letter-spacing: -0.02em; line-height: 1.07; margin: 0; }
 .open-experience-heading > p:not(.document-type) { color: var(--muted-warm); font-size: 18px; line-height: 1.65; margin: 0; max-width: 560px; }
 .open-experience-heading > a { color: var(--bright-indigo); font-size: 13px; font-weight: 600; grid-column: 2; }
 .experience-contract { border-bottom: 1px solid var(--hairline-dark); border-top: 1px solid var(--hairline-dark); display: grid; grid-template-columns: repeat(3, 1fr); margin-top: 66px; }
@@ -1063,7 +1113,7 @@ input {
 .architecture-section { background: var(--white); display: grid; gap: 80px; grid-template-columns: minmax(0, 0.72fr) minmax(500px, 1.28fr); }
 .architecture-heading h2,
 .open-record h2,
-.open-contribute h2 { font-family: var(--font-serif); font-size: clamp(45px, 4vw, 62px); font-weight: 400; letter-spacing: -0.02em; line-height: 1.07; margin: 24px 0 0; }
+.open-contribute h2 { font-family: var(--font-serif); font-size: clamp(45px, 4vw, 62px); font-weight: 500; letter-spacing: -0.02em; line-height: 1.07; margin: 24px 0 0; }
 .architecture-list article { border-top: 1px solid var(--hairline-light); display: grid; gap: 26px; grid-template-columns: 56px 1fr; padding: 28px 0; }
 .architecture-list h3 { font-size: 19px; letter-spacing: -0.01em; margin: 0 0 8px; }
 .architecture-list p { color: var(--spec-body); font-size: 16px; line-height: 1.55; margin: 0; }
@@ -1125,7 +1175,7 @@ input {
 .spec-dek { color: var(--quiet-ink); font-size: 18px; line-height: 1.55; margin: 0; max-width: 650px; }
 
 .plain-summary { background: var(--paper); border-left: 3px solid var(--indigo); margin: 40px 0 54px; padding: 28px 30px; }
-.plain-summary h2 { font-family: var(--font-serif); font-size: 28px; font-weight: 400; letter-spacing: -0.01em; margin: 10px 0 17px; }
+.plain-summary h2 { font-family: var(--font-serif); font-size: 28px; font-weight: 500; letter-spacing: -0.01em; margin: 10px 0 17px; }
 .plain-summary > p:not(.document-type) { color: var(--spec-body); font-size: 15px; line-height: 1.7; margin: 12px 0 0; }
 
 .spec-section { border-top: 1px solid var(--hairline-light); display: grid; gap: 24px; grid-template-columns: 50px 1fr; padding: 46px 0; }
@@ -1203,7 +1253,7 @@ input {
 .open-library-link { border: 1px solid var(--hairline-light); border-radius: 3px; color: var(--ink) !important; padding: 9px 12px; }
 .open-editorial-site .open-footer { border-top: 1px solid var(--hairline-light); }
 .editorial-hero { margin: 0 auto; max-width: var(--site-width); padding: 104px max(40px, calc((100vw - 1120px) / 2)) 92px; }
-.editorial-hero h1 { font-family: var(--font-serif); font-size: clamp(62px, 7.2vw, 104px); font-weight: 400; letter-spacing: -0.035em; line-height: 0.96; margin: 26px 0 34px; max-width: 1050px; }
+.editorial-hero h1 { font-family: var(--font-serif); font-size: clamp(62px, 7.2vw, 104px); font-weight: 500; letter-spacing: -0.035em; line-height: 0.96; margin: 26px 0 34px; max-width: 1050px; }
 .editorial-hero > p:not(.document-type) { color: var(--spec-body); font-size: 21px; line-height: 1.45; margin: 0; max-width: 800px; }
 .editorial-actions { align-items: center; display: flex; gap: 26px; margin-top: 38px; }
 .editorial-status { align-items: start; background: var(--ink); color: var(--white); display: grid; gap: 28px; grid-template-columns: 180px 1fr; padding: 28px max(40px, calc((100vw - 1120px) / 2)); }
@@ -1244,7 +1294,7 @@ input {
 .editorial-cta h2 { font-size: clamp(42px, 5.4vw, 76px); letter-spacing: -0.025em; line-height: 1; margin: 20px 0; max-width: 900px; }
 .editorial-cta > p:not(.document-type) { font-size: 17px; margin: 0 0 30px; max-width: 760px; }
 .editorial-cta .button-ink:hover { background: var(--midnight); }
-.question-callout { border: 0; border-left: 6px solid var(--indigo); color: var(--ink); font-family: var(--font-serif); font-size: clamp(34px, 4.4vw, 58px); line-height: 1.15; margin: 58px 0 0; max-width: 1020px; padding: 8px 0 8px 36px; }
+.question-callout { border: 0; border-left: 6px solid var(--indigo); color: var(--ink); font-family: var(--font-serif); font-size: clamp(34px, 4.4vw, 58px); font-weight: 500; line-height: 1.15; margin: 58px 0 0; max-width: 1020px; padding: 8px 0 8px 36px; }
 .question-callout-square { border-color: var(--coral); }
 .response-scale { display: grid; gap: 10px; grid-template-columns: repeat(4, 1fr); margin-top: 52px; }
 .response-scale > div { background: var(--white); border: 1px solid var(--hairline-light); display: flex; flex-direction: column; min-height: 140px; padding: 22px; }

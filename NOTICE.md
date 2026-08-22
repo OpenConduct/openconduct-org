@@ -23,3 +23,16 @@ are reserved.
 Neither license grants certification, conformance, endorsement, partnership,
 governance, or official-status rights.
 
+## Third-party fonts
+
+Plus Jakarta Sans — Copyright © 2020 The Plus Jakarta Sans Project Authors
+(https://github.com/tokotype/PlusJakartaSans)
+Licensed under the SIL Open Font License 1.1.
+
+Source Serif 4 — Copyright 2014–2023 Adobe
+(https://github.com/adobe-fonts/source-serif)
+Licensed under the SIL Open Font License 1.1.
+
+Red Hat Mono — Copyright 2021 Red Hat, Inc.
+(https://github.com/RedHatOfficial/RedHatFont)
+Licensed under the SIL Open Font License 1.1.

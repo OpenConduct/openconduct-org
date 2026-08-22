@@ -42,9 +42,24 @@ certification mark, or claim of approval or official implementation.
 
 ## Third-party material
 
-Third-party material, if any, remains subject to its original rights and terms.
-A link, citation, or reference does not place the referenced work under this
-repository's licenses.
+The following third-party assets are included in this repository under their
+original licenses:
+
+- **Plus Jakarta Sans** (variable font) — Copyright © 2020 The Plus Jakarta
+  Sans Project Authors. Licensed under the SIL Open Font License 1.1.
+  See [assets/fonts/LICENSE-PlusJakartaSans.txt](assets/fonts/LICENSE-PlusJakartaSans.txt).
+
+- **Source Serif 4** (variable font) — Copyright 2014–2023 Adobe. Licensed
+  under the SIL Open Font License 1.1.
+  See [assets/fonts/LICENSE-SourceSerif4.txt](assets/fonts/LICENSE-SourceSerif4.txt).
+
+- **Red Hat Mono** (variable font) — Copyright 2021 Red Hat, Inc. Licensed
+  under the SIL Open Font License 1.1.
+  See [assets/fonts/LICENSE-RedHatMono.txt](assets/fonts/LICENSE-RedHatMono.txt).
+
+These fonts are not covered by the Apache 2.0 or CC BY 4.0 licenses that apply
+to the site code and content. A link, citation, or reference does not place the
+referenced work under this repository's licenses.
 
 ## No operational authorization
 
