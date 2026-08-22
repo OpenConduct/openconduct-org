@@ -34,7 +34,7 @@ grep -n '#[0-9a-fA-F]\{3,8\}' assets/site.css | grep -v 'var(--' | grep -v '^\s*
 **Verify**:
 - No hardcoded hex values outside `:root` variable definitions.
 - No raw `rgba()` values that should use a token.
-- Both repos have identical CSS: `diff conduct-is/assets/site.css openconduct/assets/site.css` returns empty.
+- The two stylesheets are **deliberately different** and must not be forced to match. Check only that design tokens are used consistently within each file. See AGENTS.md §2.
 
 ---
 
@@ -144,7 +144,7 @@ Consult https://specification.website/ for the following categories relevant to 
 If the change could affect both sites:
 
 ```bash
-# CSS must be identical
+# The stylesheets are deliberately different. Review a diff for accidental drift only, never to force a match.
 diff conduct-is/assets/site.css openconduct/assets/site.css
 
 # Footer text should match
@@ -167,7 +167,7 @@ Output a structured summary:
 | Category | Test | Status | Details |
 |----------|------|--------|---------|
 | CSS Tokens | No hardcoded colors outside :root | PASS / FAIL | |
-| CSS Sync | Both repos identical | PASS / FAIL | |
+| CSS Tokens | Each file uses its own tokens consistently | PASS / FAIL | |
 | HTML Validity | Valid structure, no orphan elements | PASS / FAIL | |
 | Skip Links | Targets exist and match | PASS / FAIL | |
 | Accessibility | Focus visible, ARIA correct, keyboard nav | PASS / FAIL | |

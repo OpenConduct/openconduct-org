@@ -88,7 +88,9 @@ Conduct.is and OpenConduct.org are separate repositories and separate Cloudflare
 | **conduct.is** (separate repo) | Public consumer-facing explanation | Bolder, darker, consumer-facing |
 | **openconduct.org** (this repo) | Standards, research, governance, contributions | Warmer, editorial, documentation-like |
 
-Both repositories contain their own copy of `assets/site.css`. A design change affecting both sites must be applied deliberately to both copies.
+Both repositories contain their own copy of `assets/site.css`, and **they are deliberately not identical**. Each site expresses its own identity: conduct.is is bolder and consumer-facing, openconduct.org is warmer and documentation-like, and their type stacks and treatments diverge on purpose.
+
+So do not "fix" a difference between the two stylesheets on the assumption they should match. What must stay consistent across both is **product language, protections, status claims, footer text, and security contacts**. Visual divergence is a feature; a contradiction about how the system works is a bug.
 
 ### Source-of-Truth Order
 
