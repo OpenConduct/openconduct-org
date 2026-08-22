@@ -686,7 +686,7 @@ input {
 
 .experience-grid > article { min-width: 0; }
 .experience-step { align-items: center; border-top: 1px solid var(--hairline-light); display: flex; gap: 12px; margin-bottom: 20px; padding-top: 14px; }
-.experience-step span { color: var(--indigo); font-family: var(--font-mono); font-size: 10px; }
+.experience-step span { color: var(--indigo); font-family: var(--font-mono); font-size: 11px; }
 .experience-step strong { font-size: 13px; }
 .experience-caption { color: var(--quiet-ink); font-size: 12px; line-height: 1.6; margin: 18px 2px 0; }
 .experience-disclaimer { border-top: 1px solid var(--hairline-light); color: var(--quiet-ink); font-size: 11px; margin: 42px 0 0; padding-top: 16px; }
@@ -747,7 +747,7 @@ input {
 .proof-screen dl div { border-bottom: 1px solid var(--hairline-light); display: grid; gap: 10px; grid-template-columns: 72px 1fr; padding: 10px 0; }
 .proof-screen dt { color: var(--quiet-ink); font-family: var(--font-mono); font-size: 8px; }
 .proof-screen dd { font-size: 9px; margin: 0; }
-.benefit-complete { align-items: center; background: var(--indigo-wash); color: var(--deep-indigo); display: flex; font-size: 10px; gap: 9px; margin-top: 20px; padding: 12px; }
+.benefit-complete { align-items: center; background: var(--indigo-wash); color: var(--deep-indigo); display: flex; font-size: 11px; gap: 9px; margin-top: 20px; padding: 12px; }
 .benefit-complete span { align-items: center; background: var(--indigo); border-radius: 50%; color: var(--white); display: inline-flex; height: 18px; justify-content: center; width: 18px; }
 
 .proof-flow {
@@ -1180,12 +1180,12 @@ input {
 .question-list details[open] b { transform: rotate(45deg); }
 .question-list details > div { background: var(--paper); border-left: 2px solid var(--indigo); margin: 0 0 18px 60px; padding: 16px 18px; }
 .question-list details > div p { font-size: 12px; margin: 0 0 10px; }
-.question-list details > div a { color: var(--indigo); font-size: 10px; font-weight: 600; }
+.question-list details > div a { color: var(--indigo); font-size: 11px; font-weight: 600; }
 
 .spec-footer-nav { border-top: 1px solid var(--hairline-light); display: grid; gap: 20px; grid-template-columns: 1fr 1fr; margin-top: 20px; padding-top: 30px; }
 .spec-footer-nav a { border: 1px solid var(--hairline-light); padding: 18px; }
 .spec-footer-nav a:last-child { text-align: right; }
-.spec-footer-nav span { color: var(--quiet-ink); display: block; font-family: var(--font-mono); font-size: 8px; margin-bottom: 6px; }
+.spec-footer-nav span { color: var(--quiet-ink); display: block; font-family: var(--font-mono); font-size: 11px; margin-bottom: 6px; }
 .spec-footer-nav strong { font-size: 12px; }
 
 .page-toc { padding: 32px 22px; }
@@ -1193,7 +1193,7 @@ input {
 .page-toc a:hover, .page-toc .is-active { border-color: var(--indigo); color: var(--ink); }
 .page-toc hr { border: 0; border-top: 1px solid var(--hairline-light); margin: 22px 0; }
 
-.docs-footer { align-items: center; border-top: 1px solid var(--hairline-light); display: flex; font-size: 10px; justify-content: space-between; padding: 22px max(24px, calc((100vw - 1410px) / 2)); }
+.docs-footer { align-items: center; border-top: 1px solid var(--hairline-light); display: flex; font-size: 11px; justify-content: space-between; padding: 22px max(24px, calc((100vw - 1410px) / 2)); }
 .docs-footer p { color: var(--quiet-ink); margin: 0; }
 .docs-footer p a { text-decoration: underline; text-decoration-color: var(--hairline-light); text-underline-offset: 3px; }
 .docs-footer > a { color: var(--indigo); font-weight: 600; }
@@ -1281,7 +1281,7 @@ input {
 .lifecycle-grid p, .horizon-grid p { color: var(--muted-body); }
 .artifact-grid { display: grid; gap: 16px; grid-template-columns: repeat(2, 1fr); margin-top: 56px; }
 .artifact-grid article { background: var(--white); border: 1px solid var(--hairline-light); min-height: 240px; padding: 30px; }
-.artifact-label { background: #ecebe7; color: var(--quiet-ink); display: inline-block; font-family: var(--font-mono); font-size: 8px; padding: 5px 8px; }
+.artifact-label { background: #ecebe7; color: var(--quiet-ink); display: inline-block; font-family: var(--font-mono); font-size: 11px; padding: 5px 8px; }
 .artifact-label.is-current { background: var(--indigo-wash); color: var(--deep-indigo); }
 .artifact-grid h3 { font-size: 22px; margin: 38px 0 12px; }
 .artifact-grid p { color: var(--spec-body); font-size: 15px; line-height: 1.65; margin: 0; }
@@ -1322,14 +1322,14 @@ input {
 .download-list a { align-items: center; border-bottom: 1px solid var(--hairline-light); display: flex; justify-content: space-between; min-height: 74px; padding: 18px 24px; }
 .download-list a:last-child { border-bottom: 0; }
 .download-list strong { font-size: 14px; }
-.download-list span { color: var(--indigo); font-family: var(--font-mono); font-size: 9px; }
+.download-list span { color: var(--indigo); font-family: var(--font-mono); font-size: 11px; }
 .download-caveat { border-left: 3px solid var(--indigo); color: var(--quiet-ink); font-size: 12px; line-height: 1.6; margin: 24px 0 0; max-width: 760px; padding-left: 16px; }
 .open-contribution-form { border-top: 1px solid var(--hairline-light); margin-top: 56px; padding-top: 40px; position: relative; }
 .form-grid { display: grid; gap: 26px 24px; grid-template-columns: 1fr 1fr; }
 .form-field { display: flex; flex-direction: column; gap: 9px; }
 .form-field-wide { grid-column: 1 / -1; }
 .form-field label, .form-choices legend { font-size: 13px; font-weight: 700; }
-.form-field label span { color: var(--quiet-ink); display: block; font-family: var(--font-mono); font-size: 8px; font-weight: 500; letter-spacing: 0.06em; margin-top: 4px; text-transform: uppercase; }
+.form-field label span { color: var(--quiet-ink); display: block; font-family: var(--font-mono); font-size: 11px; font-weight: 500; letter-spacing: 0.06em; margin-top: 4px; text-transform: uppercase; }
 .form-field input, .form-field select, .form-field textarea { appearance: none; background: var(--white); border: 1px solid #b8b9b7; border-radius: 0; color: var(--ink); font: inherit; font-size: 15px; line-height: 1.5; padding: 14px 15px; width: 100%; }
 .form-field select { background-image: linear-gradient(45deg, transparent 50%, var(--ink) 50%), linear-gradient(135deg, var(--ink) 50%, transparent 50%); background-position: calc(100% - 18px) 52%, calc(100% - 13px) 52%; background-repeat: no-repeat; background-size: 5px 5px, 5px 5px; padding-right: 42px; }
 .form-field textarea { min-height: 190px; resize: vertical; }
@@ -1359,7 +1359,7 @@ input {
 .conduct-faq details { border-bottom: 1px solid var(--hairline-light); }
 .conduct-faq summary { align-items: center; cursor: pointer; display: grid; gap: 24px; grid-template-columns: 52px 1fr 30px; list-style: none; padding: 26px 0; }
 .conduct-faq summary::-webkit-details-marker { display: none; }
-.conduct-faq summary span { color: var(--indigo); font-family: var(--font-mono); font-size: 10px; }
+.conduct-faq summary span { color: var(--indigo); font-family: var(--font-mono); font-size: 11px; }
 .conduct-faq summary strong { font-size: 19px; }
 .conduct-faq summary b { font-size: 25px; font-weight: 400; transition: transform 150ms ease; }
 .conduct-faq details[open] summary b { transform: rotate(45deg); }
@@ -1371,7 +1371,7 @@ input {
 .conduct-page-cta h2 { font-size: clamp(44px, 5.4vw, 78px); letter-spacing: -0.025em; line-height: 1; margin: 20px 0 30px; max-width: 900px; }
 .conduct-page-cta > p:not(.eyebrow) { font-size: 17px; max-width: 760px; }
 .conduct-draft-note { align-items: start; background: #171d2d; color: var(--white); display: grid; gap: 30px; grid-template-columns: 180px 1fr; padding: 28px max(40px, calc((100vw - 1120px) / 2)); }
-.conduct-draft-note strong { color: var(--bright-indigo); font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.1em; }
+.conduct-draft-note strong { color: var(--bright-indigo); font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.1em; }
 .conduct-draft-note p { color: var(--muted-light); font-size: 13px; margin: 0; max-width: 820px; }
 .conduct-policy-section + .conduct-policy-section { border-top: 1px solid var(--hairline-light); }
 .conduct-policy-section h2 { font-size: clamp(38px, 4.4vw, 62px); letter-spacing: -0.022em; line-height: 1.05; margin: 0; max-width: 850px; }
