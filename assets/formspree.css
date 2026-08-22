@@ -1,0 +1,23 @@
+/* Formspree Ajax integration states — contribute page only
+   Overrides the library's default styles to match the Open Conduct design system.
+   The library toggles [data-fs-active] on success/error elements to control visibility. */
+
+/* Hide all Formspree elements by default */
+[data-fs-error],
+[data-fs-success] { display: none; }
+
+/* Success banner — shown when Formspree adds data-fs-active after submission */
+[data-fs-success][data-fs-active] { background: var(--indigo-wash); border: 1px solid var(--indigo); border-radius: 0; color: var(--ink); display: block; font-size: 15px; line-height: 1.6; margin-bottom: 32px; padding: 24px 28px; }
+[data-fs-success] strong { display: block; font-size: 17px; margin-bottom: 6px; }
+
+/* Form-level error banner */
+div[data-fs-error][data-fs-active] { background: #fdf0ec; border: 1px solid var(--coral); border-radius: 0; color: var(--deep-coral); display: block; font-size: 14px; line-height: 1.5; margin-bottom: 24px; padding: 18px 22px; }
+
+/* Field-level error text */
+span[data-fs-error][data-fs-active] { color: var(--coral); display: block; font-size: 11px; font-weight: 600; letter-spacing: 0.02em; margin-top: 6px; }
+
+/* Invalid field border — Formspree sets aria-invalid on data-fs-field inputs */
+[aria-invalid="true"] { border-color: var(--coral) !important; outline-color: var(--coral); }
+
+/* Submit button disabled state during submission */
+.form-submit .button[data-fs-submit-btn]:disabled { cursor: wait; opacity: 0.55; }

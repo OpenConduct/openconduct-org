@@ -1,0 +1,16 @@
+# .windsurfrules — Open Conduct (openconduct.org)
+
+> **All coding standards, context, and operational instructions live in `AGENTS.md` at the project root.**
+> Read it in full before making any changes.
+
+## Before You Start
+
+1. **Read `AGENTS.md`** — the complete entry point for all rules, product knowledge, and workflows.
+2. **Read `PITFALLS.md`** — before writing any code. 46 numbered anti-patterns that have caused real problems.
+3. **Read the QA audit skill** (`.agents/skills/qa-audit/SKILL.md`) — before closing any task. Mandatory verification gate.
+4. **Consult `https://specification.website/`** — when your task touches HTML structure, metadata, headers, accessibility, or SEO.
+5. **Check the other repo** — if your change could affect Conduct.is (`conduct-is/` sibling directory). See AGENTS.md §2.
+6. **Check `downloads/`** — if your task involves the versioned public record. See AGENTS.md §6 and PITFALLS.md §33–35.
+7. **Never add a framework, build step, or package manager** — these are deliberately static sites.
+8. **Never hardcode color values** — use CSS custom properties from `:root`.
+9. **Never enable the contribution form** without the full checklist — see AGENTS.md §8.

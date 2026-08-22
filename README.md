@@ -58,3 +58,4 @@ An AI assistant can edit these files directly. Ask it to preserve:
 - `_headers`, `_redirects`, `robots.txt`, `sitemap.xml`, and `.well-known/security.txt`.
 
 No files from the older shared development project need to be copied here after this repository becomes the source of truth.
+

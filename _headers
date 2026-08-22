@@ -1,11 +1,12 @@
 /*
-  Content-Security-Policy: default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'self' https://formspree.io; script-src 'self' https://static.cloudflareinsights.com; connect-src 'self' https://cloudflareinsights.com; style-src 'self'; img-src 'self' data:; font-src 'self'; upgrade-insecure-requests
+  Content-Security-Policy: default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'self' https://formspree.io; script-src 'self' https://static.cloudflareinsights.com https://unpkg.com; connect-src 'self' https://cloudflareinsights.com https://formspree.io; style-src 'self'; img-src 'self' data:; font-src 'self'; upgrade-insecure-requests
   Strict-Transport-Security: max-age=31536000; includeSubDomains
   X-Content-Type-Options: nosniff
   X-Frame-Options: DENY
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=()
   X-DNS-Prefetch-Control: off
+  Link: </sitemap.xml>; rel="sitemap", </llms.txt>; rel="ai-content-index", </.well-known/security.txt>; rel="security-contact"
 
 /assets/*
   Cache-Control: public, max-age=3600, must-revalidate

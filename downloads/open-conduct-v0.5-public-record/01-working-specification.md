@@ -165,6 +165,10 @@ Loss of an existing CQ-based benefit may still feel punitive and may have legal 
 
 “Additional benefits only” is an enforceable design objective, not a claim that relative harm is impossible. The system MUST measure whether nonparticipants, consumers with insufficient history, consumers who decline proof, and consumers who do not qualify experience worse effective service, stigma, suspicion, reduced opportunity, or coercive pressure. A benefit that materially creates those effects MUST be redesigned, restricted, or stopped.
 
+The reward catalog is open-ended and governed benefit by benefit under Section 13.19. A participating business MAY decide how generously to recognize the customers its own workers most want to serve, and generosity itself is not a defect. The requirement that an initial benefit be modest, nonessential, reversible, and free of scarce or meaningful value taken from other customers is scoped to the **first pilot benefit**, where the objective is to test safety, fairness, and comprehension rather than the appeal of the reward. That restriction MUST NOT be published or interpreted as a permanent ceiling on approved recognition. Rewards drawn from scarce or positional inventory carry materially harder fairness, baseline-parity, and competition questions and are therefore later candidates rather than prohibited ones.
+
+One boundary is permanent at every tier and for every benefit class: expedited, deprioritized, or otherwise differentiated handling of complaints, refunds, corrections, disputes, appeals, accommodations, safety responses, legally owed remedies, or any other rights process is prohibited regardless of CQ, benefit tier, or business preference.
+
 ### SP-05: Sharing is contextual and minimal
 
 **CONSTITUTIONAL:** Businesses receive the minimum proof required for an approved use. A verifier should learn whether the consumer satisfies a relevant condition, not receive the consumer's underlying events or full history.
@@ -3341,6 +3345,8 @@ The legal classification of CQ depends on facts that do not yet exist: who opera
 The project must not describe “upside only,” consent, consumer control, cryptography, nonprofit status, or open standards as legal immunity. Each reduces particular risks; none removes the need to analyze the actual system and outcome.
 
 Ethical requirements may exceed minimum law. A use can be technically lawful and still violate the project's purpose, create coercion, reward conformity, burden marginalized people, or undermine human dignity.
+
+This section is summarized publicly at `openconduct.org/regulatory-posture`, which pairs each load-bearing design decision with the regime it engages and the question that remains unresolved. The public summary MUST remain consistent with this section, MUST NOT present any regime as satisfied, and MUST NOT read as legal advice or a compliance claim. Where the two differ, this section controls.
 
 ### 13.2 Core requirements
 
@@ -8514,6 +8520,8 @@ The launch site SHOULD include:
 2. **How Conduct works:** NCS, VCI, contextual CQ, purpose-bound proof, benefit, correction, and withdrawal at a conceptual level.
 3. **Net Conduct Score:** The focused NCS standard at `/netconductscore`, including its independent future applications and current consumer-context boundaries.
 4. **Protections and prohibited uses:** Baseline service, no public ranking, no negative external proof, no employment or high-stakes use, consumer and worker rights, context limits, privacy, challenge, and governance.
+3a. **The case for a standard:** Why the proposal requires a shared standard rather than a private company feature, what a private version cannot hold, the Section 17.22 business value hypotheses stated as hypotheses, the open-ended reward catalog and its first-pilot restriction, the permanent rights boundary, and what survives if portability never clears review.
+4a. **Regulatory posture:** A readable summary of Section 13 that names the load-bearing design decisions, the regimes each one engages, what remains unresolved, the legal deliverables required before any real person is affected, and the stop conditions. It carries the Section 13 status language and invites correction from counsel and advocates.
 5. **The draft standard:** The versioned source of truth with a readable table of contents and visible decision classes.
 6. **Research and evidence:** The adversarial audit, structural simulation method, Suites A through J, distributed-integrity decision, limitations, and the next empirical questions.
 7. **Decisions and open questions:** A readable decision log, current open questions, change history, and a way to comment on a specific issue.

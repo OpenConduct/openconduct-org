@@ -10,6 +10,7 @@
   <meta name="color-scheme" content="light dark">
   <link rel="canonical" href="https://openconduct.org/contribute">
   <link rel="stylesheet" href="../assets/site.css">
+  <link rel="stylesheet" href="../assets/formspree.css">
   <link rel="icon" href="../favicon.ico" sizes="32x32">
   <link rel="icon" href="../favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="../apple-touch-icon.png">
@@ -38,12 +39,14 @@
     <header class="open-header">
       <a class="open-wordmark" aria-label="Open Conduct home" href="../index.html"><span class="open-mark" aria-hidden="true"><span class="open-mark-frame"></span><span class="open-mark-circle"></span><span class="open-mark-square"></span></span><span><em>Open</em> Conduct</span></a>
       <div class="open-utility">
-        <span class="version-chip">PROPOSAL v0.5</span><a class="open-library-link" href="../library/index.html">Browse the public record</a><a href="https://conduct.is/">Conduct overview</a>
+        <a href="https://conduct.is/" target="_blank" rel="noopener noreferrer">Explore Conduct <span aria-hidden="true">↗</span></a>
       </div>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
+      <label for="nav-toggle" class="nav-toggle-btn" aria-label="Toggle navigation"><span></span></label>
+      <nav class="open-primary-nav" aria-label="Open Conduct navigation">
+        <a class="" href="../index.html">Overview</a><a class="" href="../case-for-conduct/index.html">The case</a><a class="" href="../protections/index.html">Protections</a><a class="" href="../regulatory-posture/index.html">Regulatory posture</a><a class="" href="../netconductscore/index.html">Net Conduct Score</a><a class="" href="../library/index.html">Research &amp; decisions</a><a class="" href="../status/index.html">Status &amp; governance</a><a class="is-active" href="index.html">Contribute</a><a class="nav-spec-link" href="../standard/0.5/conduct-quotient/index.html">Read the standard →</a>
+      </nav>
     </header>
-    <nav class="open-primary-nav" aria-label="Open Conduct navigation">
-      <a class="" href="../index.html">Overview</a><a class="" href="../standard/0.5/conduct-quotient/index.html">Standard</a><a class="" href="../protections/index.html">Protections</a><a class="" href="../netconductscore/index.html">Net Conduct Score</a><a class="" href="../library/index.html">Research & decisions</a><a class="" href="../status/index.html">Status & governance</a><a class="is-active" href="index.html">Contribute</a>
-    </nav>
     <div id="open-main">
       <header class="editorial-hero">
         <p class="document-type">CONTRIBUTE</p>
@@ -52,10 +55,9 @@
         <div class="editorial-actions">
           <a class="button button-ink" href="#contribute-options">See what helps <span aria-hidden="true">↓</span></a><a class="text-action" href="../library/index.html">Review the public record <span aria-hidden="true">→</span></a>
         </div>
-      </header>
       <aside class="editorial-status">
         <strong>CURRENT STATUS</strong>
-        <p>The Formspree intake is built but disabled in this preview. It will collect nothing until the project-specific endpoint and final privacy details are added.</p>
+        <p>Submissions are reviewed in batches. The project may not reply to every submission individually.</p>
       </aside>
       <section class="editorial-section" id="contribute-options">
         <div class="editorial-heading">
@@ -97,15 +99,17 @@
           <h2>What should this proposal understand, reconsider, or investigate?</h2>
           <p>Keep the submission to one main point. Names and email addresses are optional unless you want the project to follow up.</p>
         </div>
-        <form class="open-contribution-form" method="post" target="_top">
+        <div data-fs-success><strong>Contribution received.</strong> Thank you. The project reviews submissions in batches and may not reply individually.</div>
+        <div data-fs-error></div>
+        <form id="oc-contribution-form" class="open-contribution-form" action="https://formspree.io/f/xbgrbprn" method="POST">
           <input type="hidden" name="_subject" value="Open Conduct contribution">
           <div class="form-honeypot" aria-hidden="true">
             <label for="oc-company">Leave this field empty</label><input id="oc-company" name="_gotcha" type="text" tabindex="-1" autocomplete="off">
           </div>
           <div class="form-grid">
             <div class="form-field">
-              <label for="oc-area">What are you responding to? <span>Required</span></label><select id="oc-area" name="area" required="" defaultvalue="">
-                <option value="" disabled>
+              <label for="oc-area">What are you responding to? <span>Required</span></label><select id="oc-area" name="area" required="" data-fs-field>
+                <option value="" disabled selected>
                   Choose one
                 </option>
                 <option value="conduct-explanation">
@@ -136,10 +140,11 @@
                   Something else
                 </option>
               </select>
+              <span data-fs-error="area"></span>
             </div>
             <div class="form-field">
-              <label for="oc-type">What kind of contribution is this? <span>Required</span></label><select id="oc-type" name="contribution_type" required="" defaultvalue="">
-                <option value="" disabled>
+              <label for="oc-type">What kind of contribution is this? <span>Required</span></label><select id="oc-type" name="contribution_type" required="" data-fs-field>
+                <option value="" disabled selected>
                   Choose one
                 </option>
                 <option value="correction">
@@ -173,29 +178,32 @@
                   Research or implementation interest
                 </option>
               </select>
+              <span data-fs-error="contribution_type"></span>
             </div>
             <div class="form-field form-field-wide">
               <label for="oc-point">Your point <span>Required · 5,000 characters maximum</span></label>
-              <textarea id="oc-point" name="message" rows="9" maxlength="5000" required="" placeholder="What should Open Conduct understand, reconsider, or investigate?"></textarea>
+              <textarea id="oc-point" name="message" rows="9" maxlength="5000" required="" placeholder="What should Open Conduct understand, reconsider, or investigate?" data-fs-field></textarea>
+              <span data-fs-error="message"></span>
             </div>
             <div class="form-field">
-              <label for="oc-source">Source or relevant link <span>Optional</span></label><input id="oc-source" name="source_url" type="url" inputmode="url" placeholder="https://">
+              <label for="oc-source">Source or relevant link <span>Optional</span></label><input id="oc-source" name="source_url" type="url" inputmode="url" placeholder="https://" data-fs-field>
             </div>
             <div class="form-field">
-              <label for="oc-perspective">Your perspective <span>Optional</span></label><input id="oc-perspective" name="perspective" type="text" placeholder="Consumer, frontline worker, researcher…">
+              <label for="oc-perspective">Your perspective <span>Optional</span></label><input id="oc-perspective" name="perspective" type="text" placeholder="Consumer, frontline worker, researcher…" data-fs-field>
             </div>
             <div class="form-field">
-              <label for="oc-name">Name <span>Optional</span></label><input id="oc-name" name="name" type="text" autocomplete="name">
+              <label for="oc-name">Name <span>Optional</span></label><input id="oc-name" name="name" type="text" autocomplete="name" data-fs-field>
             </div>
             <div class="form-field">
-              <label for="oc-email">Email <span>Optional · needed for follow-up</span></label><input id="oc-email" name="email" type="email" inputmode="email" autocomplete="email">
+              <label for="oc-email">Email <span>Optional · needed for follow-up</span></label><input id="oc-email" name="email" type="email" inputmode="email" autocomplete="email" data-fs-field>
+              <span data-fs-error="email"></span>
             </div>
           </div>
           <fieldset class="form-choices">
             <legend>Follow-up and attribution</legend><label><input type="checkbox" name="follow_up" value="yes"><span><strong>The project may follow up with me.</strong><small>Include an email address if you select this.</small></span></label><label><input type="checkbox" name="attribution_interest" value="yes"><span><strong>The project may ask me about public attribution.</strong><small>This does not grant permission to quote or identify you.</small></span></label>
           </fieldset><label class="form-confirmation"><input type="checkbox" name="submission_acknowledgment" value="confirmed" required=""><span>I have read the <a href="https://conduct.is/privacy">privacy notice</a> and have not included customer records, worker responses, identity documents, confidential information, security secrets, another person's information, or material I lack the right to share. <strong>Required</strong></span></label>
           <div class="form-submit">
-            <button class="button button-ink" type="submit" disabled>Form opens at launch</button>
+            <button class="button button-ink" type="submit" data-fs-submit-btn>Submit contribution</button>
             <p>Submission does not guarantee a reply, publication, attribution, acceptance, introduction, role, partnership, or payment.</p>
           </div>
         </form>
@@ -267,9 +275,11 @@
       <div class="open-wordmark">
         <span class="open-mark" aria-hidden="true"><span class="open-mark-frame"></span><span class="open-mark-circle"></span><span class="open-mark-square"></span></span><span><em>Open</em> Conduct</span>
       </div>
-      <p class="footer-origin">© 2026 Conduct · Created by <a href="https://brentturner.is">Brent Turner</a> · First proposed via <a href="https://thenewnew.is">The New New</a></p>
+      <p class="footer-origin">© <script>document.write(new Date().getFullYear())</script> Conduct · Created by <a href="https://brentturner.is">Brent Turner</a> · First proposed via <a href="https://thenewnew.is">The New New</a></p>
       <p class="footer-version">VERSION 0.5 · UPDATED AUGUST 11, 2026</p>
     </footer>
   </main>
+  <script src="../assets/formspree-init.js"></script>
+  <script src="https://unpkg.com/@formspree/ajax@1" defer></script>
 </body>
 </html>
