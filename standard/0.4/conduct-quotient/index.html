@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Conduct Quotient — Historical Standard 0.4 | Open Conduct</title>
+  <meta name="description" content="The historical 0.4 proposal for interpreting eligible NCS and VCI history in context.">
+  <meta name="robots" content="noindex,follow">
+  <meta name="theme-color" content="#f4f2ed">
+  <meta name="color-scheme" content="light dark">
+  <link rel="canonical" href="https://openconduct.org/standard/0.4/conduct-quotient">
+  <link rel="stylesheet" href="../../../assets/site.css">
+  <link rel="icon" href="../../../favicon.ico" sizes="32x32">
+  <link rel="icon" href="../../../favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="../../../apple-touch-icon.png">
+  <link rel="manifest" href="../../../site.webmanifest">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="Open Conduct">
+  <meta property="og:title" content="Conduct Quotient — Historical Standard 0.4 | Open Conduct">
+  <meta property="og:description" content="The historical 0.4 proposal for interpreting eligible NCS and VCI history in context.">
+  <meta property="og:url" content="https://openconduct.org/standard/0.4/conduct-quotient">
+  <meta property="og:image" content="https://openconduct.org/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Good conduct should count. Conduct and Open Conduct.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Conduct Quotient — Historical Standard 0.4 | Open Conduct">
+  <meta name="twitter:description" content="The historical 0.4 proposal for interpreting eligible NCS and VCI history in context.">
+  <meta name="twitter:image" content="https://openconduct.org/og.png">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://openconduct.org/#website","url":"https://openconduct.org/","name":"Open Conduct","inLanguage":"en-US"},{"@type":"Person","@id":"https://brentturner.is/#person","name":"Brent Turner","url":"https://brentturner.is/"},{"@type":"TechArticle","@id":"https://openconduct.org/standard/0.4/conduct-quotient#page","url":"https://openconduct.org/standard/0.4/conduct-quotient","name":"Conduct Quotient — Historical Standard 0.4 | Open Conduct","description":"The historical 0.4 proposal for interpreting eligible NCS and VCI history in context.","isPartOf":{"@id":"https://openconduct.org/#website"},"author":{"@id":"https://brentturner.is/#person"},"inLanguage":"en-US","dateModified":"2026-08-12"}]}
+  </script>
+</head>
+<body>
+  <main class="docs-site">
+    <a class="skip-link" href="#spec-main">Skip to specification</a>
+    <header class="docs-header">
+      <a class="docs-wordmark" href="../../../index.html"><span class="docs-mark" aria-hidden="true"><i></i><b></b></span><span><em>Open</em> Conduct</span></a><span class="docs-divider"></span><span class="version-button">Version 0.4</span><a class="docs-search" href="../../../library/index.html"><span aria-hidden="true">⌕</span><span>Browse the public record</span></a>
+      <nav aria-label="Documentation utilities">
+        <a href="#changes">Changes</a><a href="../../../contribute/index.html">Contribute</a><a href="https://conduct.is/">Conduct</a>
+      </nav>
+    </header>
+    <div class="docs-layout">
+      <aside class="docs-sidebar" aria-label="Specification navigation">
+        <a class="sidebar-overview" href="../../../index.html">← Standard overview</a>
+        <div class="sidebar-group">
+          <p>OVERVIEW</p><a class="" href="#related">Introduction</a><a class="" href="#related">Purpose and limits</a><a class="" href="#related">Terms and roles</a>
+        </div>
+        <div class="sidebar-group">
+          <p>COMPONENTS</p><a class="" href="#related">Net Conduct Score</a><a class="" href="#related">Verified Conduct Index</a><a class="is-current" href="#spec-main">Conduct Quotient</a>
+        </div>
+        <div class="sidebar-group">
+          <p>SYSTEM</p><a class="" href="#related">Context transfer</a><a class="" href="#related">Proof and benefits</a><a class="" href="#related">Identity and custody</a><a class="" href="#related">Correction and appeal</a>
+        </div>
+        <div class="sidebar-group">
+          <p>ACCOUNTABILITY</p><a class="" href="#related">Protections</a><a class="" href="#related">Governance</a><a class="" href="#related">Evaluation</a><a class="" href="#related">Prohibited uses</a>
+        </div>
+      </aside>
+      <article class="spec-article" id="spec-main">
+        <nav class="breadcrumbs" aria-label="Breadcrumb">
+          <a href="../../../index.html">Open Conduct</a><span>/</span><a href="#related">Components</a><span>/</span><strong>Conduct Quotient</strong>
+        </nav>
+        <div class="historical-notice">
+          <strong>This is a historical version.</strong>
+          <p>Standard 0.5 supersedes this two-dimensional proposal with one contextual Conduct Quotient while preserving the two inputs underneath it.</p><a href="../../0.5/conduct-quotient/index.html">Read the current version <span aria-hidden="true">→</span></a>
+        </div>
+        <header class="spec-title-block">
+          <div class="spec-status-row">
+            <span class="status-badge historical">HISTORICAL</span><span>STANDARD 0.4</span><span>UPDATED AUGUST 9, 2026</span>
+          </div>
+          <h1>Conduct Quotient</h1>
+          <p class="spec-dek">This part of the standard brings eligible human ratings and verified operational records together for a specific context. It does not assume they should become one universal number.</p>
+        </header>
+        <section class="plain-summary" aria-labelledby="summary-title">
+          <p class="document-type">PLAIN-LANGUAGE SUMMARY</p>
+          <h2 id="summary-title">What this page establishes</h2>
+          <p>Conduct Quotient (CQ) interprets eligible Net Conduct Score (NCS) and Verified Conduct Index (VCI) history for a specific use. It considers confidence, recency, disputes, patterns, and whether evidence from one context is relevant to another.</p>
+          <p>The current proposal keeps NCS and VCI visible as two separate dimensions. For an approved use, the system may return one private positive proof. We have not established that a single overall CQ would be valid.</p>
+        </section>
+        <section class="spec-section" id="definition">
+          <div class="section-number">
+            7.1
+          </div>
+          <div>
+            <h2>Definition and role</h2>
+            <p>CQ MUST preserve the distinct meaning, provenance, confidence, and validity rules of NCS and VCI. A calculation MUST NOT average away a failure in either component.</p>
+            <div class="normative-rule">
+              <span>REQUIRED</span>
+              <p>Any CQ display or use MUST allow NCS and VCI to be inspected separately.</p>
+            </div>
+          </div>
+        </section>
+        <section class="spec-section" id="representation">
+          <div class="section-number">
+            7.2
+          </div>
+          <div>
+            <h2>Current representation</h2>
+            <p>The current proposal shows two contextual dimensions instead of one average. An implementation may add a purpose-specific proof only after the evidence and the exact use meet their approval requirements.</p>
+            <div class="spec-figure" role="img" aria-label="NCS human experience and VCI operational evidence remain separate inside a contextual CQ frame, which can produce one limited proof.">
+              <div class="figure-input input-human">
+                <i></i> <span>NCS<br>
+                <small>Human experience</small></span>
+              </div>
+              <div class="figure-input input-record">
+                <i></i> <span>VCI<br>
+                <small>Operational evidence</small></span>
+              </div>
+              <div class="figure-context">
+                <span>CQ</span><small>Context, confidence,<br>
+                recency, dispute</small>
+              </div>
+              <div class="figure-output">
+                <i></i><span>APPROVED<br>
+                POSITIVE PROOF</span>
+              </div>
+            </div>
+            <p class="figure-caption"><span>FIGURE 7.2-A</span> The components remain distinct. The proof reveals an approved result, not the underlying history.</p>
+          </div>
+        </section>
+        <section class="spec-section" id="sufficiency">
+          <div class="section-number">
+            7.3
+          </div>
+          <div>
+            <h2>Evidence sufficiency</h2>
+            <p>CQ MUST be able to return insufficient history. More transactions, higher spending, or history from one concentrated source MUST NOT automatically create stronger standing.</p>
+            <table>
+              <thead>
+                <tr>
+                  <th>Condition</th>
+                  <th>Required treatment</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Sparse eligible history</td>
+                  <td>No CQ presentation or proof</td>
+                  <td><span class="table-status">REQUIRED</span></td>
+                </tr>
+                <tr>
+                  <td>One concentrated source</td>
+                  <td>Apply concentration limits</td>
+                  <td><span class="table-status">CANDIDATE</span></td>
+                </tr>
+                <tr>
+                  <td>Material active dispute</td>
+                  <td>Pause affected use</td>
+                  <td><span class="table-status">REQUIRED</span></td>
+                </tr>
+                <tr>
+                  <td>Contradictory dimensions</td>
+                  <td>Preserve contradiction</td>
+                  <td><span class="table-status">REQUIRED</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+        <section class="spec-section" id="open-questions">
+          <div class="section-number">
+            7.4
+          </div>
+          <div>
+            <h2>Open questions</h2>
+            <div class="question-list">
+              <details>
+                <summary>
+                  <span>OQ-001</span><strong>What should the consumer see: two dimensions, categories, or proof eligibility?</strong><b>+</b>
+                </summary>
+                <div>
+                  <p>The current direction keeps human experience and verified follow-through separate. Research still needs to determine whether numbers, categories, explanations, or proof availability are easiest to understand without creating false precision.</p><a href="../../../contribute/index.html">Respond to this question <span aria-hidden="true">→</span></a>
+                </div>
+              </details>
+              <details>
+                <summary>
+                  <span>OQ-002</span><strong>Could one overall Conduct Quotient ever be valid and useful?</strong><b>+</b>
+                </summary>
+                <div>
+                  <p>The initial system does not use one overall number. A combined result would advance only if evidence showed that it added understanding without allowing strength in one component to hide weakness in the other.</p><a href="../../../contribute/index.html">Respond to this question <span aria-hidden="true">→</span></a>
+                </div>
+              </details>
+              <details>
+                <summary>
+                  <span>OQ-123</span><strong>How much evidence is enough before a profile or proof becomes available?</strong><b>+</b>
+                </summary>
+                <div>
+                  <p>The threshold must consider eligible interactions, independent sources, participation, concentration, and uncertainty—not transaction volume alone. The exact requirements remain an empirical question.</p><a href="../../../contribute/index.html">Respond to this question <span aria-hidden="true">→</span></a>
+                </div>
+              </details>
+              <details>
+                <summary>
+                  <span>OQ-126</span><strong>How quickly should different kinds of evidence become less relevant?</strong><b>+</b>
+                </summary>
+                <div>
+                  <p>A human response, a routine fulfilled responsibility, and a resolved material event may need different treatment over time. Research must test recency rules, recovery, and the risk of making old history permanent.</p><a href="../../../contribute/index.html">Respond to this question <span aria-hidden="true">→</span></a>
+                </div>
+              </details>
+            </div>
+          </div>
+        </section><span class="anchor-target" id="changes"></span>
+        <footer class="spec-footer-nav" id="related">
+          <a href="#related"><span>PREVIOUS</span><strong>Verified Conduct Index</strong></a><a href="#related"><span>NEXT</span><strong>Context transfer</strong></a>
+        </footer>
+      </article>
+      <aside class="page-toc" aria-label="On this page">
+        <p>ON THIS PAGE</p><a class="is-active" href="#definition">Definition and role</a><a href="#representation">Current representation</a><a href="#sufficiency">Evidence sufficiency</a><a href="#open-questions">Open questions</a>
+        <hr>
+        <a href="../../../contribute/index.html">Edit this page</a><a href="#changes">View changes</a><a href="../../../contribute/index.html">Report a problem</a>
+      </aside>
+    </div>
+    <footer class="docs-footer">
+      <p>© 2026 Conduct · Created by <a href="https://brentturner.is">Brent Turner</a> · First proposed via <a href="https://thenewnew.is">The New New</a></p><a href="../../../index.html">Open Conduct overview</a>
+    </footer>
+  </main>
+</body>
+</html>

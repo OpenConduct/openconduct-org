@@ -1,0 +1,6 @@
+Contact: mailto:security@openconduct.org
+Contact: https://openconduct.org/contribute
+Expires: 2027-08-11T23:59:59Z
+Preferred-Languages: en
+Canonical: https://openconduct.org/.well-known/security.txt
+Policy: https://openconduct.org/contribute

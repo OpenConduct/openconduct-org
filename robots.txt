@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://openconduct.org/sitemap.xml

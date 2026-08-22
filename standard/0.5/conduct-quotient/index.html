@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Conduct Quotient — Standard 0.5 | Open Conduct</title>
+  <meta name="description" content="The current proposal for producing one contextual Conduct Quotient from independently governed NCS and VCI inputs.">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <meta name="theme-color" content="#f4f2ed">
+  <meta name="color-scheme" content="light dark">
+  <link rel="canonical" href="https://openconduct.org/standard/0.5/conduct-quotient">
+  <link rel="stylesheet" href="../../../assets/site.css">
+  <link rel="icon" href="../../../favicon.ico" sizes="32x32">
+  <link rel="icon" href="../../../favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="../../../apple-touch-icon.png">
+  <link rel="manifest" href="../../../site.webmanifest">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="Open Conduct">
+  <meta property="og:title" content="Conduct Quotient — Standard 0.5 | Open Conduct">
+  <meta property="og:description" content="The current proposal for producing one contextual Conduct Quotient from independently governed NCS and VCI inputs.">
+  <meta property="og:url" content="https://openconduct.org/standard/0.5/conduct-quotient">
+  <meta property="og:image" content="https://openconduct.org/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Good conduct should count. Conduct and Open Conduct.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Conduct Quotient — Standard 0.5 | Open Conduct">
+  <meta name="twitter:description" content="The current proposal for producing one contextual Conduct Quotient from independently governed NCS and VCI inputs.">
+  <meta name="twitter:image" content="https://openconduct.org/og.png">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://openconduct.org/#website","url":"https://openconduct.org/","name":"Open Conduct","inLanguage":"en-US"},{"@type":"Person","@id":"https://brentturner.is/#person","name":"Brent Turner","url":"https://brentturner.is/"},{"@type":"TechArticle","@id":"https://openconduct.org/standard/0.5/conduct-quotient#page","url":"https://openconduct.org/standard/0.5/conduct-quotient","name":"Conduct Quotient — Standard 0.5 | Open Conduct","description":"The current proposal for producing one contextual Conduct Quotient from independently governed NCS and VCI inputs.","isPartOf":{"@id":"https://openconduct.org/#website"},"author":{"@id":"https://brentturner.is/#person"},"inLanguage":"en-US","dateModified":"2026-08-12"}]}
+  </script>
+</head>
+<body>
+  <main class="docs-site">
+    <a class="skip-link" href="#spec-main">Skip to specification</a>
+    <header class="docs-header">
+      <a class="docs-wordmark" href="../../../index.html"><span class="docs-mark" aria-hidden="true"><i></i><b></b></span><span><em>Open</em> Conduct</span></a><span class="docs-divider"></span><span class="version-button">Version 0.5</span><a class="docs-search" href="../../../library/index.html"><span aria-hidden="true">⌕</span><span>Browse the public record</span></a>
+      <nav aria-label="Documentation utilities">
+        <a href="#changes">Changes</a><a href="../../../contribute/index.html">Contribute</a><a href="https://conduct.is/">Conduct</a>
+      </nav>
+    </header>
+    <div class="docs-layout">
+      <aside class="docs-sidebar" aria-label="Specification navigation">
+        <a class="sidebar-overview" href="../../../index.html">← Standard overview</a>
+        <div class="sidebar-group">
+          <p>OVERVIEW</p><a class="" href="#related">Introduction</a><a class="" href="#related">Purpose and limits</a><a class="" href="#related">Terms and roles</a>
+        </div>
+        <div class="sidebar-group">
+          <p>COMPONENTS</p><a class="" href="../../../netconductscore/index.html">Net Conduct Score</a><a class="" href="../verified-conduct-index/index.html">Verified Conduct Index</a><a class="is-current" href="#spec-main">Conduct Quotient</a>
+        </div>
+        <div class="sidebar-group">
+          <p>SYSTEM</p><a class="" href="#related">Context transfer</a><a class="" href="#related">Proof and benefits</a><a class="" href="#related">Identity and custody</a><a class="" href="#related">Correction and appeal</a>
+        </div>
+        <div class="sidebar-group">
+          <p>ACCOUNTABILITY</p><a class="" href="../../../protections/index.html">Protections</a><a class="" href="../../../status/index.html#governance">Governance</a><a class="" href="../../../library/index.html#research">Evaluation</a><a class="" href="../../../protections/index.html">Prohibited uses</a>
+        </div>
+        <div class="sidebar-history">
+          <p>HISTORY</p><a href="../../0.4/conduct-quotient/index.html">Version 0.4</a>
+        </div>
+      </aside>
+      <article class="spec-article" id="spec-main">
+        <nav class="breadcrumbs" aria-label="Breadcrumb">
+          <a href="../../../index.html">Open Conduct</a><span>/</span><a href="#related">Components</a><span>/</span><strong>Conduct Quotient</strong>
+        </nav>
+        <header class="spec-title-block">
+          <div class="spec-status-row">
+            <span class="status-badge current">CURRENT</span><span>STANDARD 0.5</span><span>UPDATED AUGUST 11, 2026</span>
+          </div>
+          <h1>Conduct Quotient</h1>
+          <p class="spec-dek">Conduct Quotient (CQ) is one private score for one named context. It is produced from separately governed human-experience and verified-customer-record inputs only after both qualify.</p>
+        </header>
+        <section class="plain-summary" aria-labelledby="summary-title">
+          <p class="document-type">PLAIN-LANGUAGE SUMMARY</p>
+          <h2 id="summary-title">What this page establishes</h2>
+          <p>The working CQ display runs from 1.00 to 5.00 and always shows two decimal places when a score exists. The familiar format is meant to make the result easy to read, not to claim more certainty than the evidence supports.</p>
+          <p>Net Conduct Score (NCS) and Verified Conduct Index (VCI) remain independently valid, inspectable, and challengeable beneath CQ. A material problem in one cannot be averaged away by strength in the other. When the evidence is incomplete, disputed, invalid, or irrelevant, the responsible result is a named non-score state.</p>
+        </section>
+        <section class="spec-section" id="definition">
+          <div class="section-number">
+            7.1
+          </div>
+          <div>
+            <h2>Definition and role</h2>
+            <p>CQ MUST name its scope. A company-specific CQ, an industry CQ, and an overall CQ are different representations and MUST NOT be substituted for one another. The initial live sequence begins with company-specific CQ. Overall CQ remains outside the first live pilot even if its shadow research advances.</p>
+            <div class="normative-rule">
+              <span>REQUIRED</span>
+              <p>A displayed CQ MUST retain an auditable route to both protected inputs, the active evidence, the named scope, and the calculation version.</p>
+            </div>
+          </div>
+        </section>
+        <section class="spec-section" id="representation">
+          <div class="section-number">
+            7.2
+          </div>
+          <div>
+            <h2>One score, two protected inputs</h2>
+            <p>The private consumer surface leads with one contextual CQ. The consumer can open <strong>How your CQ was formed</strong> to inspect the human-experience and verified-customer-record inputs. Workers and ordinary receiving businesses do not receive those values.</p>
+            <div class="spec-figure" role="img" aria-label="Eligible Net Conduct Score and Verified Conduct Index inputs produce one contextual Conduct Quotient, which can support one limited eligibility result.">
+              <div class="figure-input input-human">
+                <i></i> <span>NCS<br>
+                <small>Human experience</small></span>
+              </div>
+              <div class="figure-input input-record">
+                <i></i> <span>VCI<br>
+                <small>Approved records</small></span>
+              </div>
+              <div class="figure-context figure-context-score">
+                <span>CQ</span><strong>4.81</strong><small>Transportation context</small>
+              </div>
+              <div class="figure-output">
+                <i></i><span>LIMITED<br>
+                ELIGIBILITY RESULT</span>
+              </div>
+            </div>
+            <p class="figure-caption"><span>FIGURE 7.2-A</span> The 4.81 value is a synthetic interface example. The score is visible to the consumer; a receiving business ordinarily receives only the approved result needed for one benefit.</p>
+            <div class="formula-block">
+              <p class="document-type">PROVISIONAL RESEARCH FAMILY</p><code>CQinternal = min((N + V) / 2, min(N, V) + κ)</code>
+              <p>N and V are separately valid contextual inputs on an internal 0–100 scale. Suite K used κ = 10 as a research setting. The public display candidate maps the result to 1.00–5.00 and rounds to the nearest hundredth, half-to-even.</p>
+            </div>
+            <p>K3 capped arithmetic is the provisional structural lead. K6 weakest-link anchored synthesis, a two-dimensional explanation, and proof-only output remain research controls. No coefficient, mapping, or score is authorized for production.</p>
+          </div>
+        </section>
+        <section class="spec-section" id="sufficiency">
+          <div class="section-number">
+            7.3
+          </div>
+          <div>
+            <h2>Evidence gates and non-score states</h2>
+            <p>Each required input MUST separately pass its construct, provenance, attribution, sampling, sufficiency, independence, fairness, rights, and dispute gates. Confidence controls whether a score is available; it does not compensate for weak standing.</p>
+            <table>
+              <thead>
+                <tr>
+                  <th>Condition</th>
+                  <th>Consumer result</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Eligible evidence has not reached the display threshold</td>
+                  <td>Building history</td>
+                  <td><span class="table-status">REQUIRED</span></td>
+                </tr>
+                <tr>
+                  <td>A material input or calculation is being challenged</td>
+                  <td>Under review</td>
+                  <td><span class="table-status">REQUIRED</span></td>
+                </tr>
+                <tr>
+                  <td>The result cannot currently be produced safely</td>
+                  <td>Temporarily unavailable</td>
+                  <td><span class="table-status">REQUIRED</span></td>
+                </tr>
+                <tr>
+                  <td>Evidence does not support the requested scope</td>
+                  <td>Not available in this context</td>
+                  <td><span class="table-status">REQUIRED</span></td>
+                </tr>
+                <tr>
+                  <td>The consumer has not enrolled or has withdrawn</td>
+                  <td>Not participating</td>
+                  <td><span class="table-status">REQUIRED</span></td>
+                </tr>
+              </tbody>
+            </table>
+            <p>These states are not low scores and MUST NOT reduce baseline service. Missing, invalid, disputed, corrected, or prohibited evidence MUST NOT be converted into adverse standing.</p>
+          </div>
+        </section>
+        <section class="spec-section" id="disclosure">
+          <div class="section-number">
+            7.4
+          </div>
+          <div>
+            <h2>Consumer display and business disclosure</h2>
+            <p>A consumer may see an available CQ, its scope, evidence state, last material update, input explanations, active records, and challenge route. The first-skim view MUST NOT lead with two competing input scores or a raw operational fraction.</p>
+            <div class="normative-rule">
+              <span>DEFAULT DISCLOSURE</span>
+              <p>A receiving business learns only whether the consumer qualifies for one approved, additional benefit. It does not receive the CQ, NCS, VCI, source companies, or underlying events.</p>
+            </div>
+            <div class="normative-rule">
+              <span>REPLACEABLE BENEFIT DELIVERY</span>
+              <p>The Conduct layer governs eligibility and the limited proof. A separate loyalty, promotion, commerce, or customer-experience system may deliver the approved benefit, but it MUST NOT recalculate CQ, retain the result as a general customer segment, infer a failed result, or make baseline service depend on participation or eligibility.</p>
+            </div>
+            <p>Incentive-orchestration platforms are therefore a potential implementation-partner category rather than part of the Conduct standard itself. <a href="https://www.talon.one/">Talon.One</a>is one current market example. Open Conduct has no partnership with or endorsement from Talon.One, and no provider is required by this proposal.</p>
+            <p>Broader score sharing may be researched only when the consumer initiates it and the exact use independently passes necessity, comprehension, privacy, fairness, legal, and baseline-service review. Conduct does not create public profiles, leaderboards, searchable people ratings, or a way to deny ordinary service.</p>
+          </div>
+        </section>
+        <section class="spec-section" id="open-questions">
+          <div class="section-number">
+            7.5
+          </div>
+          <div>
+            <h2>Open questions</h2>
+            <div class="question-list">
+              <details>
+                <summary>
+                  <span>OQ-001</span><strong>Do people understand the 1.00–5.00 CQ, its scope, evidence state, and limitations?</strong><b>+</b>
+                </summary>
+                <div>
+                  <p>The familiar format could improve comprehension while also importing false assumptions about precision, rank, and moral judgment. The display, persistence, and explanations require human testing.</p><a href="../../../contribute/index.html">Respond to this question <span aria-hidden="true">→</span></a>
+                </div>
+              </details>
+              <details>
+                <summary>
+                  <span>OQ-113</span><strong>Which coefficients, calibration, thresholds, and context boundaries should instantiate K3 and L4?</strong><b>+</b>
+                </summary>
+                <div>
+                  <p>Suites K and L select structural families, not production parameters. Real-data replay, fairness analysis, human research, and independent review must determine whether any implementation advances.</p><a href="../../../contribute/index.html">Respond to this question <span aria-hidden="true">→</span></a>
+                </div>
+              </details>
+              <details>
+                <summary>
+                  <span>OQ-125</span><strong>Could an overall CQ ever earn release beyond shadow research?</strong><b>+</b>
+                </summary>
+                <div>
+                  <p>An overall score is part of the long-term product ambition but excluded from the initial live pilot. It would need to preserve context differences, prevent dominance, improve understanding, and pass fairness, necessity, proportionality, and legal review.</p><a href="../../../contribute/index.html">Respond to this question <span aria-hidden="true">→</span></a>
+                </div>
+              </details>
+              <details>
+                <summary>
+                  <span>OQ-133</span><strong>Does K3 with the ten-point research cap outperform K6 and alternative cap values?</strong><b>+</b>
+                </summary>
+                <div>
+                  <p>The comparison must examine real validity, fairness, stability, manipulation resistance, proxy artifacts, and explanation. The current cap is a research setting, not a production coefficient.</p><a href="../../../contribute/index.html">Respond to this question <span aria-hidden="true">→</span></a>
+                </div>
+              </details>
+              <details>
+                <summary>
+                  <span>OQ-134</span><strong>Which interface makes CQ understandable without inviting anxiety, constant monitoring, or moral grading?</strong><b>+</b>
+                </summary>
+                <div>
+                  <p>The score, scope selector, input explanation, non-score states, and change history need comparative UX, language, accessibility, cross-cultural, and longitudinal research.</p><a href="../../../contribute/index.html">Respond to this question <span aria-hidden="true">→</span></a>
+                </div>
+              </details>
+            </div>
+          </div>
+        </section><span class="anchor-target" id="changes"></span>
+        <footer class="spec-footer-nav" id="related">
+          <a href="../verified-conduct-index/index.html"><span>PREVIOUS</span><strong>Verified Conduct Index</strong></a><a href="#open-questions"><span>NEXT</span><strong>Open questions</strong></a>
+        </footer>
+      </article>
+      <aside class="page-toc" aria-label="On this page">
+        <p>ON THIS PAGE</p><a class="is-active" href="#definition">Definition and role</a><a href="#representation">One score, two inputs</a><a href="#sufficiency">Evidence and states</a><a href="#disclosure">Display and disclosure</a><a href="#open-questions">Open questions</a>
+        <hr>
+        <a href="../../../contribute/index.html">Suggest a change</a><a href="#changes">View changes</a><a href="../../../contribute/index.html">Report a problem</a>
+      </aside>
+    </div>
+    <footer class="docs-footer">
+      <p>© 2026 Conduct · Created by <a href="https://brentturner.is">Brent Turner</a> · First proposed via <a href="https://thenewnew.is">The New New</a></p><a href="../../../index.html">Open Conduct overview</a>
+    </footer>
+  </main>
+</body>
+</html>
