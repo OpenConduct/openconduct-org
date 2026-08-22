@@ -45,13 +45,13 @@ certification mark, or claim of approval or official implementation.
 The following third-party assets are included in this repository under their
 original licenses:
 
-- **Plus Jakarta Sans** (variable font) — Copyright © 2020 The Plus Jakarta
-  Sans Project Authors. Licensed under the SIL Open Font License 1.1.
-  See [assets/fonts/LICENSE-PlusJakartaSans.txt](assets/fonts/LICENSE-PlusJakartaSans.txt).
-
-- **Source Serif 4** (variable font) — Copyright 2014–2023 Adobe. Licensed
+- **Red Hat Display** (variable font) — Copyright 2021 Red Hat, Inc. Licensed
   under the SIL Open Font License 1.1.
-  See [assets/fonts/LICENSE-SourceSerif4.txt](assets/fonts/LICENSE-SourceSerif4.txt).
+  See [assets/fonts/LICENSE-RedHat.txt](assets/fonts/LICENSE-RedHat.txt).
+
+- **Red Hat Text** (variable font) — Copyright 2021 Red Hat, Inc. Licensed
+  under the SIL Open Font License 1.1.
+  See [assets/fonts/LICENSE-RedHat.txt](assets/fonts/LICENSE-RedHat.txt).
 
 - **Red Hat Mono** (variable font) — Copyright 2021 Red Hat, Inc. Licensed
   under the SIL Open Font License 1.1.

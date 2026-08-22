@@ -7,17 +7,23 @@ There is no framework, package manager, or build process. The files in this fold
 ## Where to edit
 
 - `index.html` — homepage content
-- `library/index.html` — public-record library
+- `components/index.html` — components index (NCS, VCI, CQ)
+- `library/index.html` — public-record library (Research)
 - `contribute/index.html` — contribution form and guidance
 - `protections/index.html` — protections and prohibited uses
 - `status/index.html` — status and governance
+- `case-for-conduct/index.html` — the case for Open Conduct
+- `regulatory-posture/index.html` — regulatory posture
 - `netconductscore/index.html` — Net Conduct Score
+- `verifiedconductindex/index.html` — Verified Conduct Index
 - `standard/0.5/verified-conduct-index/index.html` — Verified Conduct Index
 - `standard/0.5/conduct-quotient/index.html` — current Conduct Quotient standard
 - `standard/0.4/conduct-quotient/index.html` — historical version 0.4
 - `assets/site.css` — all visual styles and responsive layouts
 - `downloads/` — versioned public-record downloads
 - `404.html` — page-not-found screen
+
+Primary navigation: Overview · Components · Protections · Research · Contribute · Read the standard
 
 The remaining files provide icons, social-sharing artwork, search metadata, redirects, security headers, and machine-readable descriptions.
 

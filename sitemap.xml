@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://openconduct.org/</loc><lastmod>2026-08-12</lastmod></url>
+  <url><loc>https://openconduct.org/</loc><lastmod>2026-08-22</lastmod></url>
+  <url><loc>https://openconduct.org/components</loc><lastmod>2026-08-22</lastmod></url>
   <url><loc>https://openconduct.org/case-for-conduct</loc><lastmod>2026-08-22</lastmod></url>
   <url><loc>https://openconduct.org/protections</loc><lastmod>2026-08-12</lastmod></url>
   <url><loc>https://openconduct.org/regulatory-posture</loc><lastmod>2026-08-22</lastmod></url>
@@ -9,5 +10,6 @@
   <url><loc>https://openconduct.org/contribute</loc><lastmod>2026-08-12</lastmod></url>
   <url><loc>https://openconduct.org/netconductscore</loc><lastmod>2026-08-12</lastmod></url>
   <url><loc>https://openconduct.org/standard/0.5/verified-conduct-index</loc><lastmod>2026-08-12</lastmod></url>
+  <url><loc>https://openconduct.org/verifiedconductindex</loc><lastmod>2026-08-22</lastmod></url>
   <url><loc>https://openconduct.org/standard/0.5/conduct-quotient</loc><lastmod>2026-08-12</lastmod></url>
 </urlset>

@@ -261,6 +261,10 @@ The form at `contribute/index.html` is prepared for Formspree but **intentionall
 
 ## 9. Editorial Voice
 
+> **For any copy change on openconduct.org, read [EDITORIAL.md](EDITORIAL.md) first.**
+> It carries the standards-site rules: who is reading and why, precision over warmth, headline limits, banned constructions, role-noun point of view, status language, citation requirements, and worked before-and-after examples. It wins on this site if it disagrees with the summary below.
+> conduct.is has its own editorial file with deliberately different rules. Do not cross-apply them.
+
 The sites inherit Brent's writing voice. Write as if explaining the idea aloud to an intelligent colleague.
 
 **The voice is:** Direct. Thoughtful. Conversational. Precise. Curious. Confident without being prescriptive. Smart without sounding academic or smug. Human, never hype-driven.
@@ -490,6 +494,7 @@ Do not describe the mailbox as a live support desk or promise response times.
 
 ## See Also
 
+- [EDITORIAL.md](EDITORIAL.md) — Copy rules for openconduct.org: audience, precision, status language, citations
 - [PITFALLS.md](PITFALLS.md) — 46 specific anti-patterns organized by category
 - [.agents/skills/qa-audit/SKILL.md](.agents/skills/qa-audit/SKILL.md) — Mandatory QA verification skill (7-step audit)
 - [README.md](README.md) — Technical operation guide

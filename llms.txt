@@ -5,8 +5,10 @@
 ## Current standard
 
 - [Conduct Quotient 0.5](https://openconduct.org/standard/0.5/conduct-quotient): How qualifying Net Conduct Score and Verified Conduct Index inputs could produce one private contextual score.
+- [Components](https://openconduct.org/components): How Net Conduct Score, Verified Conduct Index, and Conduct Quotient work together as the human, record-based, and contextual parts of the Open Conduct proposal.
 - [Net Conduct Score](https://openconduct.org/netconductscore): The proposed open measure of human experience in an eligible, verified interaction.
 - [Verified Conduct Index 0.5](https://openconduct.org/standard/0.5/verified-conduct-index): The approved-record input for eligible responsibilities within a customer's control.
+- [Verified Conduct Index overview](https://openconduct.org/verifiedconductindex): A plain-language explainer for the business-record input, including eligibility gates, exclusions, customer rights, and open questions.
 - [The case for a standard](https://openconduct.org/case-for-conduct): Why customer conduct needs a shared standard rather than a private company feature, what a participating business might get, what a reward is allowed to be, and what survives if portability never clears review.
 - [Protections and prohibited uses](https://openconduct.org/protections): Required limits, rights, remedies, and uses the proposal rejects.
 - [Regulatory posture](https://openconduct.org/regulatory-posture): Which law each design decision is answering, which questions remain unresolved, and the legal work required before any pilot. Issue-spotting, not legal advice.

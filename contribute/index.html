@@ -37,14 +37,14 @@
   <main class="open-site open-editorial-site">
     <a class="skip-link" href="#open-main">Skip to content</a>
     <header class="open-header">
-      <a class="open-wordmark" aria-label="Open Conduct home" href="../index.html"><span class="open-mark" aria-hidden="true"><span class="open-mark-frame"></span><span class="open-mark-circle"></span><span class="open-mark-square"></span></span><span><em>Open</em> Conduct</span></a>
+      <a class="open-wordmark" aria-label="Open Conduct home" href="../"><span class="open-mark" aria-hidden="true"><span class="open-mark-frame"></span><span class="open-mark-circle"></span><span class="open-mark-square"></span></span><span><em>Open</em> Conduct</span></a>
       <div class="open-utility">
         <a href="https://conduct.is/" target="_blank" rel="noopener noreferrer">Explore Conduct <span aria-hidden="true">↗</span></a>
       </div>
       <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
       <label for="nav-toggle" class="nav-toggle-btn" aria-label="Toggle navigation"><span></span></label>
       <nav class="open-primary-nav" aria-label="Open Conduct navigation">
-        <a class="" href="../index.html">Overview</a><a class="" href="../case-for-conduct/index.html">The case</a><a class="" href="../protections/index.html">Protections</a><a class="" href="../regulatory-posture/index.html">Regulatory posture</a><a class="" href="../netconductscore/index.html">Net Conduct Score</a><a class="" href="../library/index.html">Research &amp; decisions</a><a class="" href="../status/index.html">Status &amp; governance</a><a class="is-active" href="index.html">Contribute</a><a class="nav-spec-link" href="../standard/0.5/conduct-quotient/index.html">Read the standard →</a>
+        <a href="../">Overview</a><a href="../components/">Components</a><a href="../protections/">Protections</a><a href="../library/">Research</a><a class="is-active" aria-current="page" href="./">Contribute</a><a class="nav-spec-link" href="../standard/0.5/conduct-quotient/">Read the standard →</a>
       </nav>
     </header>
     <div id="open-main">
@@ -53,7 +53,7 @@
         <h1>Help challenge and improve Open Conduct.</h1>
         <p>Tell us the idea is wrong. Tell us which part. Point at a person or a situation the work has misread, or show a better way to do it. You do not have to agree with any of this to be useful here.</p>
         <div class="editorial-actions">
-          <a class="button button-ink" href="#contribute-options">See what helps <span aria-hidden="true">↓</span></a><a class="text-action" href="../library/index.html">Review the public record <span aria-hidden="true">→</span></a>
+          <a class="button button-ink" href="#contribute-options">See what helps <span aria-hidden="true">↓</span></a><a class="text-action" href="../library/">Review the public record <span aria-hidden="true">→</span></a>
         </div>
       </header>
       <aside class="editorial-status">
@@ -100,8 +100,8 @@
           <h2>What should this proposal understand, reconsider, or investigate?</h2>
           <p>Keep the submission to one main point. Names and email addresses are optional unless you want the project to follow up.</p>
         </div>
-        <div data-fs-success><strong>Contribution received.</strong> Thank you. The project reviews submissions in batches and may not reply individually.</div>
-        <div data-fs-error></div>
+        <div data-fs-success role="status" aria-live="polite" tabindex="-1"><strong>Contribution received.</strong> Thank you. The project reviews submissions in batches and may not reply individually.</div>
+        <div data-fs-error role="alert" aria-live="assertive" tabindex="-1"></div>
         <form id="oc-contribution-form" class="open-contribution-form" action="https://formspree.io/f/xbgrbprn" method="POST">
           <input type="hidden" name="_subject" value="Open Conduct contribution">
           <div class="form-honeypot" aria-hidden="true">
@@ -196,7 +196,7 @@
               <label for="oc-name">Name <span>Optional</span></label><input id="oc-name" name="name" type="text" autocomplete="name" data-fs-field>
             </div>
             <div class="form-field">
-              <label for="oc-email">Email <span>Optional · needed for follow-up</span></label><input id="oc-email" name="email" type="email" inputmode="email" autocomplete="email" data-fs-field>
+              <label for="oc-email">Email <span id="oc-email-desc">Optional · needed for follow-up</span></label><input id="oc-email" name="email" type="email" inputmode="email" autocomplete="email" pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}" title="Please enter a valid email address (e.g. name@example.com)" aria-describedby="oc-email-desc" data-fs-field>
               <span data-fs-error="email"></span>
             </div>
           </div>
@@ -263,7 +263,7 @@
         </div>
         <div class="two-column-copy">
           <p>Brent Turner is the visible final steward of publication decisions during the proposal stage. He may correct, clarify, add open questions, publish alternatives, and advance candidate research.</p>
-          <p>He may not quietly weaken a constitutional protection or present a founder decision as multi-stakeholder consensus. Independent rights and decision structures become mandatory before any live system affects people.</p>
+          <p>He may not weaken a constitutional protection, whether quietly or in the open, and may not present a founder decision as multi-stakeholder consensus. Independent rights and decision structures become mandatory before any live system affects people.</p>
         </div>
       </section>
       <section class="editorial-cta">
@@ -273,11 +273,40 @@
       </section>
     </div>
     <footer class="open-footer">
-      <div class="open-wordmark">
-        <span class="open-mark" aria-hidden="true"><span class="open-mark-frame"></span><span class="open-mark-circle"></span><span class="open-mark-square"></span></span><span><em>Open</em> Conduct</span>
+      <nav class="footer-nav" aria-label="Open Conduct pages">
+        <div class="footer-nav-group">
+          <p>Understand</p>
+          <a href="../">Overview</a>
+          <a href="../case-for-conduct/">The case</a>
+          <a href="../components/">Components</a>
+        </div>
+        <div class="footer-nav-group">
+          <p>Components</p>
+          <a href="../netconductscore/">Net Conduct Score</a>
+          <a href="../verifiedconductindex/">Verified Conduct Index</a>
+          <a href="../standard/0.5/conduct-quotient/">Conduct Quotient</a>
+        </div>
+        <div class="footer-nav-group">
+          <p>Safeguards &amp; research</p>
+          <a href="../protections/">Protections</a>
+          <a href="../regulatory-posture/">Regulatory posture</a>
+          <a href="../library/">Research &amp; decisions</a>
+          <a href="../status/">Status &amp; governance</a>
+        </div>
+        <div class="footer-nav-group">
+          <p>Participate</p>
+          <a href="../standard/0.5/conduct-quotient/">Read the standard</a>
+          <a href="../contribute/">Contribute</a>
+          <a href="https://conduct.is/" target="_blank" rel="noopener noreferrer">Explore Conduct <span aria-hidden="true">↗</span></a>
+        </div>
+      </nav>
+      <div class="footer-meta">
+        <div class="open-wordmark">
+          <span class="open-mark" aria-hidden="true"><span class="open-mark-frame"></span><span class="open-mark-circle"></span><span class="open-mark-square"></span></span><span><em>Open</em> Conduct</span>
+        </div>
+        <p class="footer-origin">© <script>document.write(new Date().getFullYear())</script> Conduct · Created by <a href="https://brentturner.is">Brent Turner</a> · First proposed via <a href="https://thenewnew.is">The New New</a></p>
+        <p class="footer-version">VERSION 0.5</p>
       </div>
-      <p class="footer-origin">© <script>document.write(new Date().getFullYear())</script> Conduct · Created by <a href="https://brentturner.is">Brent Turner</a> · First proposed via <a href="https://thenewnew.is">The New New</a></p>
-      <p class="footer-version">VERSION 0.5 · UPDATED AUGUST 11, 2026</p>
     </footer>
   </main>
   <script src="../assets/formspree-init.js"></script>
