@@ -12,11 +12,15 @@ Someone who came to evaluate the work, not to be sold on it. A privacy lawyer. A
 
 They share three traits:
 
-- **They are looking for the flaw.** That is the job they came to do, and the site should help them do it.
-- **They will not be charmed.** Warmth reads as spin to this audience. Enthusiasm reads as bias.
+- **They are evaluating, not browsing.** They want to know what the proposal actually requires and where it is still open. Give them both.
 - **They can handle density.** Length is fine. Vagueness is not.
+- **They are not the enemy.** Most of them would like this to work. Some will disagree, and a few will be hostile, but the site should be written for the reader who is interested and rigorous, not for the worst-case critic.
 
-**The test for every page:** could a hostile expert use this page to find something wrong with the proposal? If the page makes that harder, the page is failing.
+**Precision is what earns this audience. Defensiveness is not.**
+
+Overclaiming loses them, but so does a page that keeps announcing its own weaknesses. A confident, plain, accurate sentence is the most credible thing on the page. Write as though the work is worth their time, because it is.
+
+**The test for every page:** would a rigorous reader finish it knowing exactly what is being proposed, what is settled, and what is still open?
 
 ---
 
@@ -25,19 +29,21 @@ They share three traits:
 1. **State what the proposal actually requires**, precisely enough to be implemented or refuted.
 2. **Show what remains unresolved**, in the same breath as what is settled.
 3. **Never claim more than the evidence supports.**
-4. **Make challenge easy** — every page should leave the reader knowing where to push.
+4. **Make it easy to get involved** — every page should leave the reader knowing where their expertise would land.
 
-The most credible content on this site is the list of things that are still open. Treat it as the asset, not the embarrassment.
+The open questions are an asset rather than an embarrassment. State them plainly, once each, and let the reader see the work that is already done around them.
 
 ---
 
 ## 3. The structural rule
 
-**Precision first. Warmth never.**
+**Precision first. Never at the cost of plain English.**
 
 conduct.is may open aspirationally because it is trying to interest a stranger. This site opens with what the page establishes. A reader here has already decided to pay attention; the job is to be worth it.
 
 Every section states what it contains. Every claim carries its status. Every unresolved question is named as unresolved rather than skipped.
+
+Precise and readable are not in tension. If a sentence is hard to parse, that is a writing problem rather than evidence of rigor.
 
 ---
 
@@ -47,7 +53,17 @@ Every section states what it contains. Every claim carries its status. Every unr
 - **Say what the section establishes**, not what the reader should feel about it.
 - **No metaphor. Anywhere.** There is no aspirational hero on this site, so the exception that applies to conduct.is does not apply here.
 - **A number in a heading is good.** "Six choices doing most of the legal work" tells the reader the shape of what follows.
-- **No headline that describes the page.** "What the current proposal requires" says nothing.
+- **No headline that describes the page.** "What the current proposal requires" and "What this page establishes" both say nothing.
+
+**Three headline patterns that are banned outright.** Each of these was widespread on this site and each had to be removed:
+
+| Banned | Example removed | Write instead |
+|---|---|---|
+| **The split.** A positive clause and a negative clause, joined by a comma, a period, or "not." | "One interaction, not a verdict on a person." · "A weighted ratio, not a completion percentage." · "Commercial value is not conduct." | Say the positive half and let the section body handle the exclusion. |
+| **The aphorism.** A clever general truth standing in for a specific statement. | "A pause is a designed outcome." · "The protections are the product." · "A right without a remedy is only a preference." | Name the actual actor and the actual mechanism. |
+| **The flaw hunt.** A closing headline asking the reader to attack the work. | "Where does the case fail?" · "Which protection is incomplete?" · "Should this go any further?" | Invite the expertise. "This is where a privacy lawyer should push hardest." |
+
+**The split is the most common failure on this site.** A headline that ends by denying something teaches the reader what the proposal is not, which is the least useful thing they could learn from a heading. It also plants the negative as the memorable half. Put what is true in the headline. Put the boundary in the paragraph, once.
 
 ---
 
@@ -145,11 +161,13 @@ State each limit once, precisely, where it belongs. Do not attach a hedge to eve
 |---|---|---|
 | What the current proposal requires. | Four rules the design will not bend on. | A heading that said nothing became one that previews the shape. |
 | A limited business result | One answer for the business | Noun phrase became a statement. |
-| Conduct should stop where existing incentive systems begin. | Conduct decides who qualifies. Something else hands out the reward. | Abstract boundary became two concrete actors. |
-| Each label shows what an artifact can—and cannot—establish. | What each label tells you, and what it does not. | Em dash bolt-on removed, jargon noun removed. |
-| The minimum gate is larger than a working calculation. | A working formula is the smallest part of this. | Invented term replaced with plain comparison. |
-| What does not | What does not exist | Fragment completed. |
-| The Open Conduct Alliance is a proposed institution, not an organization operating today. | The Open Conduct Alliance does not exist yet. | Thirteen words of hedging became six words of fact. |
+| Conduct should stop where existing incentive systems begin. | Conduct sets who qualifies, and a loyalty platform delivers the reward. | Two concrete actors, and neither one is "something else." |
+| Each label shows what an artifact can—and cannot—establish. | Each label sets the weight a reader can put on that artifact. | Em dash bolt-on removed, and the split removed with it. |
+| The minimum gate is larger than a working calculation. | Governance, law, and evidence still need the most work. | Invented term replaced with the three actual gaps. |
+| What does not | What still needs building | Fragment completed, and framed as work rather than absence. |
+| The Open Conduct Alliance is a proposed institution, not an organization operating today. | The Open Conduct Alliance still needs to be formed. | Thirteen words of hedging became seven words of fact. |
+| Where does the case fail? | Where this case needs a harder look. | An invitation to attack became an invitation to contribute. |
+| A pause is a designed outcome. | The specification says when to stop, and who decides. | Aphorism replaced with the actual mechanism. |
 
 ---
 
@@ -157,14 +175,15 @@ State each limit once, precisely, where it belongs. Do not attach a hedge to eve
 
 1. Read every headline in order. Does the sequence describe the argument?
 2. Any headline over fourteen words, or containing a metaphor?
-3. Does every claim carry its status, and is every candidate visibly a candidate?
-4. Does every legal, research, or precedent claim carry a source?
-5. Any banned construction from §5?
-6. Any limit softened, or any hypothesis hardened?
-7. Does any page imply a partnership, an operating system, or completed review?
-8. Could a hostile expert use this page to find the flaw? If not, what is missing?
-9. If this page contradicts the versioned record, which one is wrong?
+3. **Any split headline, aphorism, or flaw hunt from §4?** Read each headline alone and ask what it asserts. If the answer is "that something is not the case," rewrite it.
+4. Does every claim carry its status, and is every candidate visibly a candidate?
+5. Does every legal, research, or precedent claim carry a source?
+6. Any banned construction from §5?
+7. Any limit softened, or any hypothesis hardened?
+8. Does any page imply a partnership, an operating system, or completed review?
+9. **Does the page state its limits once, or does it keep returning to them?** One clear statement reads as confidence. Four reads as anxiety.
+10. If this page contradicts the versioned record, which one is wrong?
 
 ---
 
-*Last updated: 2026-08-22*
+*Last updated: 2026-08-23*
