@@ -49,7 +49,8 @@ Precise and readable are not in tension. If a sentence is hard to parse, that is
 
 ## 4. Headlines
 
-- **Up to fourteen words.** Longer than the consumer site, because descriptive beats punchy here.
+- **Aim for four to eight words. Fourteen is the hard ceiling, not the target.** Descriptive beats punchy here, but descriptive does not mean long. "Nine categories the index MUST exclude" does more work than "Approved records, measuring only what the customer accepted and could control."
+- **A headline is not a sentence from the body.** If it has two clauses joined by "and," or a subordinate clause explaining itself, it is a paragraph opener wearing a headline's clothes. Cut it down or move it down.
 - **Say what the section establishes**, not what the reader should feel about it.
 - **No metaphor. Anywhere.** There is no aspirational hero on this site, so the exception that applies to conduct.is does not apply here.
 - **A number in a heading is good.** "Six choices doing most of the legal work" tells the reader the shape of what follows.
