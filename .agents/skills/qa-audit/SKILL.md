@@ -139,6 +139,34 @@ Consult https://specification.website/ for the following categories relevant to 
 
 ---
 
+### Step 8: Explanatory-Versus-Normative Drift
+
+**This check exists because the failure has occurred three times.** Twice on 23 August 2026 a prohibition was found stated on an explanatory page while the governing document said nothing:
+
+- The explanatory VCI page excluded protected traits, disability, and health. The normative VCI page, which declares "this page governs," omitted the civil-rights exclusion entirely.
+- The explanatory NCS page excluded tone, face, and sentiment. The normative NCS page and the working specification contained no inference prohibition at all, which left the proposal's strongest argument resting on a non-governing bullet.
+
+A rule that appears only where it does not govern is not a rule. It is worse than a missing rule, because the site reads as though the protection exists.
+
+**For every prohibition, exclusion, or MUST NOT stated on an explanatory page, verify it appears in:**
+
+1. The corresponding `standard/<version>/` normative page.
+2. The requirements table in `01-working-specification.md` inside the public record.
+
+**Pairs to check:**
+
+| Explanatory | Normative | Working spec section |
+|---|---|---|
+| `/netconductscore/` | `/standard/0.5/net-conduct-score/` | § 7.2 NCS requirements table |
+| `/verifiedconductindex/` | `/standard/0.5/verified-conduct-index/` | VCI requirements table |
+| `/protections/` | the page owning each protection | the matching requirement IDs |
+
+**Fast sweep.** Extract the exclusion and prohibition lists from each explanatory page, then grep the normative page and the working specification for each item's key noun. Report any term present in the explanatory list and absent from both governing sources.
+
+**Direction matters.** The governing document may legitimately contain rules the explanatory page omits for brevity. The reverse is always a defect.
+
+---
+
 ## 3. Cross-Site Sync Check (when applicable)
 
 If the change could affect both sites:

@@ -1,10 +1,12 @@
-# Open Conduct v0.5 public record
+# Open Conduct v0.5.1 public record
 
-**Prepared:** August 22, 2026
+**Prepared:** August 23, 2026
 
 **Status:** Public-proposal package
 
 **Canonical home:** https://openconduct.org/
+
+**Release:** 0.5.1, a structural amendment to 0.5. Net Conduct Score gains three constitutional requirements: a response must be a deliberate act by a person who participated in the interaction; no automated system may generate, infer, pre-fill, rank, or suggest one; facial, voice, tone, prosody, sentiment, affect, and biometric signals are prohibited as inputs; and responses may not be used to train a model that infers emotion, affect, personality, or conduct. Two hedges in sections NCS-015 and NCS-017 were also removed. See D-590 through D-596 in the decision register. The directory name and published URLs remain at 0.5 so existing links keep working.
 
 This package contains the current working specification, decision register, open questions, architecture records, product contract, adversarial review, and synthetic research Suites A–L behind the Open Conduct proposal.
 
@@ -17,7 +19,7 @@ This package contains the current working specification, decision register, open
 
 ## Package map
 
-- `01-working-specification.md`: complete version 0.5 source of truth
+- `01-working-specification.md`: complete version 0.5.1 source of truth
 - `02-decision-register.md`: decisions, classifications, reasons, and reopening conditions
 - `03-open-questions.md`: unresolved empirical, legal, cultural, technical, and institutional questions
 - `04-adversarial-integrity-audit.md`: major failure modes examined before the simulation program

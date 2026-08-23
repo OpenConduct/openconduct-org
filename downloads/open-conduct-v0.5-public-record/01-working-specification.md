@@ -343,12 +343,16 @@ The NCS output is one input to conduct synthesis. It MUST NOT independently crea
 | NCS-012 | Both negative responses MUST require one additional approved structured conduct category for eligibility review, bias analysis, and appeal. The category does not alter numerical severity. | REQUIRED FOR COHERENCE |
 | NCS-013 | The standard capture interaction SHOULD take less than two seconds for the employee. | CANDIDATE |
 | NCS-014 | A rater may consider only conduct they directly experienced or directly observed during the verified interaction; reports, summaries, notes, and other ratings are ineligible. | CONSTITUTIONAL |
-| NCS-015 | The worker ordinarily MUST NOT learn that the consumer participates in CQ or that the interaction was selected for NCS until the interaction is complete. | CONSTITUTIONAL |
+| NCS-015 | The worker MUST NOT learn that the consumer participates in CQ or that the interaction was selected for NCS until the interaction is complete. | CONSTITUTIONAL |
 | NCS-016 | Every worker may abstain or not respond without penalty, explanation, lost work, reduced pay, adverse scheduling, or performance effect; NCS activity occurs on compensated time. | CONSTITUTIONAL |
-| NCS-017 | Ordinary managers and workforce systems MUST NOT receive individual NCS response values, completion records, consumer outcomes, or rater-level distributions. | CONSTITUTIONAL |
+| NCS-017 | A manager or workforce system MUST NOT receive individual NCS response values, completion records, consumer outcomes, or rater-level distributions. This applies to any function inside the business, however it is named, including analytics, insight, and customer-experience teams. | CONSTITUTIONAL |
 | NCS-018 | Eligibility, sampling selection, prompt delivery, nonresponse, and unable-to-assess abstention MUST remain distinguishable states. | REQUIRED FOR COHERENCE |
 | NCS-019 | Multiple responses from one interaction MUST be treated as one statistical cluster and MUST NOT increase interaction count, issuer diversity, or independence as if they came from separate events. | REQUIRED FOR COHERENCE |
 | NCS-020 | Privacy-minimized event context MUST support detection of material business failure, protected consumer activity, and chronology without exposing complaint content as a scoring input. | CANDIDATE |
+| NCS-021 | Every response MUST be a deliberate act by a human rater who participated in the interaction. A response MUST NOT be generated, derived, inferred, pre-filled, defaulted, ranked, or suggested by any automated system. | CONSTITUTIONAL |
+| NCS-022 | Facial analysis, voice and speech analysis, tone, prosody, word choice, sentiment classification, affect or emotion detection, biometric signals, video, and audio MUST NOT be used as inputs to a response, whether to produce one or to recommend one to a rater. Displaying a proposed response, ordering the choices by predicted likelihood, or marking one as expected constitutes producing the response. | CONSTITUTIONAL |
+| NCS-023 | A response, and any record derived from one, MUST NOT be used to train, fine-tune, evaluate, or calibrate a model that infers emotion, affect, personality, or conduct about any person. This restriction travels with the data and binds every downstream recipient. | CONSTITUTIONAL |
+| NCS-024 | A rater MUST NOT be given a free-text field describing the consumer, and no narrative account of a person may be captured, stored, transmitted, or scored. Where an approved category requires a short factual note, that note MUST NOT enter any calculation, MUST NOT reach a receiving business, and is available only through protected review. | CONSTITUTIONAL |
 
 ### 7.3 Eligible interactions
 

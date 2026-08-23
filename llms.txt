@@ -1,6 +1,6 @@
 # Open Conduct
 
-> Open Conduct is the public standard behind the proposed Conduct Quotient. It documents the components, protections, decisions, evidence, open questions, and path to research. Version 0.5 is a developed proposal, not an operating standard or certified system.
+> Open Conduct is the public standard behind the proposed Conduct Quotient. It documents the components, protections, decisions, evidence, open questions, and path to research. Version 0.5.1 is a developed proposal, not an operating standard or certified system.
 
 ## Current standard
 

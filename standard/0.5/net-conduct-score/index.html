@@ -36,9 +36,9 @@
   <main class="docs-site">
     <a class="skip-link" href="#spec-main">Skip to specification</a>
     <header class="docs-header">
-      <a class="docs-wordmark" href="../../../"><span class="docs-mark" aria-hidden="true"><i></i><b></b></span><span><em>Open</em> Conduct</span></a><span class="docs-divider"></span><span class="version-button">Version 0.5</span><a class="docs-search" href="../../../library/"><span aria-hidden="true">⌕</span><span>Browse the public record</span></a>
+      <a class="docs-wordmark" href="../../../"><span class="docs-mark" aria-hidden="true"><i></i><b></b></span><span><em>Open</em> Conduct</span></a><span class="docs-divider"></span><span class="version-button">Version 0.5.1</span><a class="docs-search" href="../../../library/"><span aria-hidden="true">⌕</span><span>Browse the public record</span></a>
       <nav aria-label="Documentation utilities">
-        <a href="#open-questions">Open questions</a><a href="../../../contribute/">Contribute</a><a href="https://conduct.is/">Conduct</a>
+        <a href="#changes">Changes</a><a href="../../../contribute/">Contribute</a><a href="https://conduct.is/">Conduct</a>
       </nav>
     </header>
     <div class="docs-layout">
@@ -67,7 +67,7 @@
         </nav>
         <header class="spec-title-block">
           <div class="spec-status-row">
-            <span class="status-badge current">CURRENT</span><span>STANDARD 0.5</span><span>UPDATED AUGUST 23, 2026</span>
+            <span class="status-badge current">CURRENT</span><span>STANDARD 0.5.1</span><span>UPDATED AUGUST 23, 2026</span>
           </div>
           <h1>Net Conduct Score</h1>
           <p class="spec-dek">Net Conduct Score (NCS) is the human-experience input to a Conduct Quotient. One eligible worker who directly participated in a verified interaction answers one bounded question about how the customer treated people.</p>
@@ -113,7 +113,7 @@
             <p class="document-type">CONSTITUTIONAL</p>
             <p>Every response MUST be a deliberate act by a person who participated in the interaction. A response MUST NOT be generated, derived, inferred, pre-filled, defaulted, ranked, or suggested by any automated system. Facial analysis, voice and speech analysis, tone, prosody, word choice, sentiment classification, affect or emotion detection, biometric signals, video, and audio are prohibited as inputs to a response, whether used to produce one or to recommend one to a worker.</p>
           </div>
-          <p>The prohibition covers recommendation as well as generation, because a suggested answer a worker merely confirms is an inferred answer wearing a human signature. A system that displays a proposed response, orders the options by predicted likelihood, or marks one as expected is producing the response rather than collecting it.</p>
+          <p>The prohibition covers recommendation as well as generation, because a worker confirming a suggested answer produces an inferred result recorded as a human judgment. A system that displays a proposed response, orders the options by predicted likelihood, or marks one as expected is producing the response rather than collecting it.</p>
           <div class="normative-rule">
             <p class="document-type">CONSTITUTIONAL</p>
             <p>A response, and any record derived from one, MUST NOT be used to train, fine-tune, evaluate, or calibrate a model that infers emotion, affect, personality, or conduct about any person. This restriction travels with the data and binds every downstream recipient.</p>
@@ -186,6 +186,11 @@
           <p>Both negative responses MUST carry one additional structured conduct category, selected from an approved set, so that eligibility review, bias analysis, and appeal have something to examine. The category does not change numerical severity.</p>
           <div class="normative-rule">
             <p class="document-type">CONSTITUTIONAL</p>
+            <p>The response set is the whole instrument. A rater MUST NOT be given a free-text field describing the customer, and no narrative account of a person may be captured, stored, transmitted, or scored. Where an approved category requires a short factual note, that note MUST NOT enter any calculation, MUST NOT reach a receiving business, and is available only through protected review.</p>
+          </div>
+          <p>This requirement exists because the durable harm in existing systems is usually the sentence rather than the score. A permanent free-text note asserting what kind of person someone is cannot be corrected by aggregation, ages out of nothing, and follows the person indefinitely. A structured category can be counted, audited for bias, and appealed against a defined set.</p>
+          <div class="normative-rule">
+            <p class="document-type">CONSTITUTIONAL</p>
             <p>A consumer MUST be able to see what affected them, correct a source fact, add context, report bias or selective sampling, and reach independent review, without learning the identity of an individual worker or being placed in direct dispute with them.</p>
           </div>
           <p>Disclosure timing has to protect the worker as well. Where a location has few eligible responders, or a customer visited once, delay and grouping alone do not prevent identification. In a three-person shift, abstaining is itself identifying.</p>
@@ -205,6 +210,12 @@
             <p><strong>What minimum number of eligible responders must a location have before capture may occur there at all?</strong> Currently unspecified.</p>
             <p><strong>Can a worker decline in practice?</strong> Requires labor review rather than a design answer.</p>
           </div>
+        </section>
+        <section class="spec-section" id="changes">
+          <p class="section-number">CHANGES</p>
+          <h2>Release history</h2>
+          <p><strong>0.5.1 — 23 August 2026.</strong> Added three constitutional requirements to section 7.2. A response must be a deliberate act by a person who participated; no automated system may generate, infer, pre-fill, rank, or suggest one; facial, voice, tone, prosody, sentiment, affect, and biometric signals are prohibited as inputs; and responses may not train a model that infers emotion, affect, personality, or conduct. Recorded as D-590 through D-592 in the <a href="../../../downloads/open-conduct-v0.5-public-record/02-decision-register.md">decision register</a>.</p>
+          <p>The prohibition was previously stated only on the explanatory page, which does not govern. Adding it here is a structural amendment and carries a new release identity.</p>
         </section>
         <footer class="spec-footer-nav" id="related">
           <a href="../conduct-quotient/"><span>NEXT</span><strong>Conduct Quotient</strong></a><a href="../../../netconductscore/"><span>ALSO</span><strong>Explanatory NCS page</strong></a>
